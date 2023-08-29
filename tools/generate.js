@@ -87,7 +87,10 @@ function slugify(name) {
 
 function areVideosEqual(analysisVideo, yamlVideo) {
     return analysisVideo.description === yamlVideo.title &&
-           analysisVideo.date === yamlVideo.date &&
+           (
+               !analysisVideo.date ||
+               new Date(analysisVideo.date).toISOString() === new Date(yamlVideo.date).toISOString()
+           ) &&
            analysisVideo.number === yamlVideo.number &&
            analysisVideo.header === yamlVideo.header;
 }
@@ -130,11 +133,11 @@ function updateVideoLinks(yamlVideos, analysisVideos, links, dir) {
         const existentLink = yamlVideo.links.find(link => link.source === SOURCE_ID);
         if (existentLink) {
             existentLink.path = videoPath;
-            existentLink.location = findLinkByDir(links, videoPath).webUrl;
+            existentLink.location = link.webUrl;
         } else {
             yamlVideo.links.push({
                 source: SOURCE_ID,
-                location: findLinkByDir(links, videoPath),
+                location: link.webUrl,
                 path: videoPath
             });
         }
@@ -143,8 +146,7 @@ function updateVideoLinks(yamlVideos, analysisVideos, links, dir) {
 
 async function updateCategories(header, links, subject, subcategories) {
     const subjectDir = `${ROOT_DIR}/${subject}`;
-    // header.categories = header.categories || [];
-    header.categories = [];
+    header.categories = header.categories || [];
     const existentSubcats = header.categories
         .map(cat => cat.contents.filter(subcat => subcat.name))
         .flat();
@@ -154,7 +156,8 @@ async function updateCategories(header, links, subject, subcategories) {
     const missingSubcats = subcategories
         .filter(subcat => subcat.name !== '<plain>' && !existentSubcats
             .some(subcat2 => subcat.category === subcat2.header &&
-                             subcat.name === subcat2.name));
+                             `${slugify(subcat.category)}-${slugify(subcat.name)}` === subcat2.name &&
+                             subcat.number === subcat2.number));
     const allVideos = subcategories
         .filter(subcat => subcat.name === '<plain>')
         .map(subcat => Object.entries(subcat.years)
@@ -233,14 +236,11 @@ function updateYear(header, year, dir, videos, links) {
 
 async function updateSubcategory(subject, {category, folder, name, years}, links) {
     const pagePath = `../content/${subject.toLowerCase()}/${slugify(category)}-${slugify(name)}.md`
-    // const {header, content} = (await fileExists(pagePath)) ?
-    //     (await parse(pagePath)) :
-    //     {header: {}, content: ''};
-    const header = {};
-    const content = '';
-    // FIXME: Temp
-    header.title = name;
-    header.category = category;
+    const {header, content} = (await fileExists(pagePath)) ?
+        (await parse(pagePath)) :
+        {header: {}, content: ''};
+    header.title = header.title || name;
+    header.category = header.category || category;
     header.years = header.years || [];
     for (const [year, videos] of Object.entries(years)) {
         const subcatFolder = `${subject}/${folder.replace('$1', year)}`;
