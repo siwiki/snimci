@@ -16,37 +16,67 @@ sources:
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/Eqf_rNF68fZBjSbx-U3JAAIBTrBRs8zCCAJgwvXePgL5MQ
     path: Snimci predavanja/AOR1
 categories:
-  - label: Nekategorizovano
+  - label: K1
     headers:
       - Predavanja
       - Vežbe
-      - Konsultacije
-      - Labovi
     contents:
       - header: Predavanja
         number: 1
         name: predavanja-kes-memorija
+      - header: Vežbe
+        number: 1
+        name: vezbe-kes-memorija
+  - label: K2
+    headers:
+      - Predavanja
+      - Vežbe
+    contents:
       - header: Predavanja
         number: 2
         name: predavanja-virtuelna-memorija
       - header: Predavanja
         number: 3
         name: predavanja-povezivanje-memorija
-      - header: Predavanja
-        number: 4
-        name: predavanja-protocna-obrada
-      - header: Vežbe
-        number: 1
-        name: vezbe-kes-memorija
       - header: Vežbe
         number: 2
         name: vezbe-virtuelna-memorija
       - header: Vežbe
         number: 3
         name: vezbe-preklapanje-pristupa-memorijskim-modulima
+  - label: K3
+    headers:
+      - Predavanja
+      - Vežbe
+    contents:
+      - header: Predavanja
+        number: 4
+        name: predavanja-protocna-obrada
       - header: Vežbe
         number: 4
         name: vezbe-protocna-obrada
+  - label: Labovi
+    headers:
+      - Labovi
+    contents:
+      - title: Prva laboratorijska vežba
+        number: 1
+        header: Labovi
+        links:
+          - source: savic
+            location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVHn5Wg7xg9CnFlh5UsZjsMBT9F_Fxn5A9Wc52nl9bUElQ
+            path: Snimci predavanja/AOR1/Labovi/01 - Prva laboratorijska vežba.mp4
+      - title: Druga laboratorijska vežba
+        number: 2
+        header: Labovi
+        links:
+          - source: savic
+            location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVdxwH2hKelNnPeSfIar4RAB5X8GZyjvCmfoQCtiTdBkGw
+            path: Snimci predavanja/AOR1/Labovi/02 - Druga laboratorijska vežba.mp4
+  - label: Konsultacije
+    headers:
+      - Konsultacije
+    contents:
       - title: Konsultacije za vežbe iz virtuelne memorije
         date: 2020-11-18T00:00:00.000Z
         header: Konsultacije
@@ -87,20 +117,6 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ES87xtUwhr5BgKbiG14CnecB4I3HKuUpix3WHtYE2la-Yw
             path: Snimci predavanja/AOR1/Konsultacije/2021-02-09 - Konsultacije pred ispit u
               februarskom roku.mp4
-      - title: Prva laboratorijska vežba
-        number: 1
-        header: Labovi
-        links:
-          - source: savic
-            location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVHn5Wg7xg9CnFlh5UsZjsMBT9F_Fxn5A9Wc52nl9bUElQ
-            path: Snimci predavanja/AOR1/Labovi/01 - Prva laboratorijska vežba.mp4
-      - title: Druga laboratorijska vežba
-        number: 2
-        header: Labovi
-        links:
-          - source: savic
-            location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVdxwH2hKelNnPeSfIar4RAB5X8GZyjvCmfoQCtiTdBkGw
-            path: Snimci predavanja/AOR1/Labovi/02 - Druga laboratorijska vežba.mp4
 ---
 
 Lol.
