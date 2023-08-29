@@ -1,0 +1,9 @@
+<div class="accordion border-x-2 border-y">
+    <div class="p-4 flex justify-between items-center">
+        <h3>{{ .title }}</h3>
+        <svg fill="currentColor" class="w-6 h-6"><use href="#chevron-down"></use></svg>
+    </div>
+    <div class="border-dashed border-t">
+        {{ partial (print "accordion-content-" .partial) . }}
+    </div>
+</div>

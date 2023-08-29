@@ -1,0 +1,19 @@
+{{ .Scratch.Add "icons" (slice "onedrive") }}
+
+<section id="sources">
+    <h2>Izvori</h2>
+    <p>
+        Ovaj sajt ne vrši redistribuciju snimaka, i učesnici u projektu nisu
+        odgovorni za čuvanje samih snimaka. Umesto toga, koristimo se postojećim
+        izvorima snimaka, i organizujemo linkove do njih na način koji treba da
+        studentima bude smislen za pregled. Ispod su navedeni neki od izvora
+        kojima se ovde koristimo, preko kojih takođe možete pregledati snimke
+        (ali su neki od njih optimizovani za preuzimanje više nego za
+        pregledanje, i mogu biti namenjeni samo jednom umesto oba smera).
+    </p>
+    <div class="buttons">
+    {{ range $id, $source := $.Site.Data.sources }}
+        <a class="button" href="{{ $source.location }}"><svg class="w-8 h-8 mr-1"><use href="#{{ $source.type }}"></use></svg> {{ $source.name }}</a>
+    {{ end }}
+    </div>
+</section>

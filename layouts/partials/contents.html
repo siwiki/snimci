@@ -1,0 +1,16 @@
+{{ .Scratch.Add "icons" (slice "chevron-down" "chevron-up") }}
+
+<section id="contents">
+    <h2>Snimci</h2>
+    <div class="accordions">
+    {{ $context := . }}
+    {{ range .Params.categories }}
+        {{ partial "accordion" (dict
+            "title" .label
+            "partial" "subject"
+            "context" $context
+            "subject" .
+            ) }}
+    {{ end }}
+    </div>
+</section>

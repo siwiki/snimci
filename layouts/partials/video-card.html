@@ -1,0 +1,21 @@
+<article class="card" href="{{ .subcat.name }}">
+    <h5>{{ with .video.number }}{{ . }}.{{ end }} {{ .video.title }}</h5>
+    <div class="grid-cols-2 text-sm">
+        {{ with .video.date }}
+        <div>
+            <strong>Datum:</strong>
+            <span>{{ dateFormat "Januar 2, 2006" . }}</span>
+        </div>
+        {{ end }}
+        {{ with .video.teacher }}
+        <div>
+            <strong>Predavač:</strong>
+            <span>{{ . }}</span>
+        </div>        
+        {{ end }}
+    </div>
+    <p class="text-sm">{{ .video.description }}</p>
+    <p class="mt-auto border-t border-dotted pt-1">
+        {{ partial "inline-links.html" (dict "context" .context "links" .video.links) }}
+    </p>
+</article>

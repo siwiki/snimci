@@ -1,0 +1,11 @@
+<section id="welcome">
+    <p>
+        Ovaj sajt je namenjen studentima ETF, sa SI i RTI odseka, kako bi lako
+        pronašli snimke predavanja za svoje predmete.
+    </p>
+    <div class="buttons">
+    {{ range $.Site.Params.home.buttons }}
+        <a class="button" href="{{ .link }}">{{ i18n .name }}</a>
+    {{ end }}
+    </div>
+</section>

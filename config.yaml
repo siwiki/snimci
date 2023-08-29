@@ -1,0 +1,45 @@
+baseURL: "https://snimci.siwiki.rs/"
+languageCode: "sr-RS"
+title: "SI/RTI snimci"
+defaultContentLanguage: "sr"
+pluralizelisttitles: "false"
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+  - term
+
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: static
+      target: static
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: assets
+      target: assets
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
+    - source: static
+      target: assets
+
+params:
+  home:
+    buttons:
+      - name: subjects
+        link: "#subjects"
+      - name: about
+        link: "/about"
+      - name: sources
+        link: "/#sources"
+      - name: github
+        link: "https://github.com/siwiki/snimci"
+      - name: si-wiki
+        link: "https://siwiki.rs/"
+
+build:
+  writeStats: true

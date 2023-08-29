@@ -1,0 +1,15 @@
+<h1>{{ .Page.Title }}</h1>
+<section>
+    {{ .Page.Content }}
+    {{ $context := . }}
+    {{ with .Params.materials }}
+    <h2>Materijali uz snimke</h2>
+    <p>
+        <ul class="list-disc pl-4">
+            {{ range . }}
+            <li><strong>{{ .label }}:</strong> {{ partial "inline-links.html" (dict "context" $context "links" .links) }}</li>
+            {{ end }}
+        </ul>
+    </p>
+    {{ end }}
+</section>

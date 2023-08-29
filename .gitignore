@@ -1,0 +1,8 @@
+.env
+.hugo_build.lock
+hugo_stats.json
+node_modules
+tools/drives.json
+tools/items.json
+tools/links.json
+tools/names.json

@@ -1,0 +1,29 @@
+{{ .Scratch.Add "icons" (slice "hamburger" "sun" "moon") }}
+
+<nav class="bg-white dark:bg-gray-800 border-b border-blue-200 dark:border-gray-900 px-4 lg:px-6 py-2.5">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <a href="/" class="text-xl font-semibold dark:text-white no-underline text-inherit">{{ .Site.Title }}</a>
+        <div class="flex items-center lg:order-2">
+            <button class="inline-flex items-center p-2 ml-1 text-sm text-gray-800 rounded-lg dark:text-white hover:bg-gray-100 focus:outline-none dark:hover:bg-gray-700 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600" id="theme-toggle" title="{{ i18n "theme-switch" }}">
+                <svg class="w-8 h-8" fill="currentColor"><use href="#sun"></use></svg>
+            </button>
+            <button class="inline-flex items-center p-2 ml-1 text-sm text-gray-800 rounded-lg dark:text-white hover:bg-gray-100 focus:outline-none dark:hover:bg-gray-700 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600" id="odsek-toggle" title="{{ i18n "perspective-switch" }}">
+                <span class="w-8 h-8 text-lg">SI</span>
+            </button>
+            <button class="inline-flex items-center p-2 ml-1 text-sm text-gray-800 rounded-lg dark:text-white hover:bg-gray-100 focus:outline-none dark:hover:bg-gray-700 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600 lg:hidden" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-toggle" title="{{ i18n "view-menu" }}">
+                <svg class="w-8 h-8" fill="currentColor"><use href="#hamburger"></use></svg>
+            </button>
+        </div>
+        <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu">
+            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                {{ range .Site.Params.home.buttons }}
+                <li>
+                    <a href="{{ .link }}" class="no-underline block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                        {{ i18n .name }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>

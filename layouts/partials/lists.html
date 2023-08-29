@@ -1,0 +1,14 @@
+<section id="lists">
+    <h2>Izvori</h2>
+    <p>
+        Ovde su izlistani svi izvori sa kojih su preuzeti snimci sortirani u
+        odeljku iznad.
+    </p>
+    <div class="buttons">
+    {{ range .Params.sources }}
+        {{ $source := index $.Site.Data.sources .source }}
+        {{ $.Scratch.Add "icons" (slice $source.type) }}
+        <a class="button" href="{{ .location }}"><svg class="w-8 h-8 mr-1"><use href="#{{ $source.type }}"></use></svg> {{ $source.name }}</a>
+    {{ end }}
+    </div>
+</section>

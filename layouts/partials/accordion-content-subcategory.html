@@ -1,0 +1,8 @@
+<div class="p-2 lg:p-4">
+    {{ $context := .context }}
+    <div class="cards">
+        {{ range .videos }}
+            {{ partial "video-card.html" (dict "video" . "context" $context) }}
+        {{ end }}
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" property="og:description" content="{{ with .Summary }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+        <link rel="canonical" href="{{ .Permalink }}" />
+        <meta property="og:title" content="{{ .Title }}">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="{{ .Permalink }}">
+        <meta name="robots" content="noindex">
+        {{ $og_image := .Site.Params.ogImage }}
+        {{ with .Params.image }}
+            {{ $og_image = . }}
+        {{ end }}
+        {{ with resources.Get $og_image }}
+            {{ if $.Site.Params.compression }}
+                {{ $image := (.Fit $.Site.Params.imageDimensions.ogImage) }}
+                {{ $og_image = $image.Permalink }}
+            {{ end }}
+        {{ end }}
+        <meta property="og:image" content="{{ $og_image }}">
+        {{ with .Params.author }}<meta name="author" property="article:author" content="{{ . }}">{{ end }}
+        {{ with .Site.LanguageCode }}<meta property="og:locale" content="{{ . }}">{{ end }}
+        <meta property="og:site_name" content="{{ .Site.Title }}">
+        {{ hugo.Generator }}
+        <title>{{ .Title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="icon" href="{{ `favicon.ico` | absURL }}" sizes="any" />
+        <link rel="icon" href="{{ `images/favicon.svg` | absURL }}" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="{{ `images/apple-touch-icon.png` | absURL }}" />
+        <link rel="manifest" href="{{ `site.webmanifest` | absURL }}" /> -->
+        <meta name="theme-color" content="{{ .Site.Params.browserThemeColor }}" />
+        {{ $css := resources.Get "css/main.css" | postCSS | minify | fingerprint "sha512" }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" media="screen" />
+        {{ $js := resources.Get "js/script.js" | minify | fingerprint "sha512" }}
+        <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+    </head>
+    <body id="body" class="bg-gray-100 dark:bg-gray-900">
+        <a class="transition bg-primary text-primary-content absolute p-3 m-3 -translate-y-16 focus:translate-y-0 mx-0 bg-white dark:bg-gray-700 text-gray-800 dark:text-white no-underline" href="#content">{{ i18n "skip-to-content" }}</a>
+        {{- partial "header" . -}}
+        <div id="content" role="main" class="container mx-auto p-4 md:p-6 lg:p-10 border-x border-b border-blue-200 dark:border-gray-900 bg-white dark:bg-gray-700 dark:text-white">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer" . -}}
+        {{- partial "svg" . -}}
+    </body>
+</html>

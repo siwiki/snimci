@@ -1,0 +1,10 @@
+{{ $context := .context }}
+{{ range .links }}
+    {{ $source := index $context.Site.Data.sources .source }}
+    {{ $context.Scratch.Add "icons" (slice (print $source.type "-small")) }}
+    <a class="button button-inline" href="{{ .location }}" title="{{ $source.name }}">
+        <svg class="w-4 h-4 mr-0.5 inline align-middle">
+            <use href="#{{ $source.type }}-small"></use>
+        </svg>
+    </a>
+{{ end }}

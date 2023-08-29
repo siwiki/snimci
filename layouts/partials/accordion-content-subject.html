@@ -1,0 +1,25 @@
+{{ $headerMap := dict }}
+{{ range .subject.headers }}
+    {{ $headerMap = merge $headerMap (dict . slice) }}
+{{ end }}
+{{ range .subject.contents }}
+    {{ $list := index $headerMap .header | append . }}
+    {{ $headerMap = merge $headerMap (dict .header $list) }}
+{{ end }}
+
+<div class="p-2 lg:p-4">
+{{ $context := .context }}
+{{ range .subject.headers }}
+    {{ $contents := index $headerMap . }}
+    <h4 class="sm:pl-2 md:pl-2">{{ . }}</h4>
+    <div class="cards">
+    {{ range $contents }}
+        {{ if .name }}
+            {{ partial "subcategory-card.html" (dict "subcat" . "context" $context) }}
+        {{ else }}
+            {{ partial "video-card.html" (dict "video" . "context" $context) }}
+        {{ end }}
+    {{ end }}
+    </div>
+{{ end }}
+</div>

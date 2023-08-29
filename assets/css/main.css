@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply text-blue-600
+           dark:text-blue-300
+           underline;
+}
+
+.buttons {
+    @apply flex
+           flex-wrap
+           justify-between
+           w-3/4
+           mx-auto
+           my-5;
+}
+
+.button {
+    @apply p-2
+           text-sm
+           bg-white
+           dark:bg-gray-800
+           border
+           border-blue-200
+           dark:border-gray-900
+           text-gray-800
+           dark:text-white
+           rounded-lg
+           hover:bg-gray-100
+           focus:outline-none
+           dark:hover:bg-gray-700
+           focus:ring-2
+           focus:ring-gray-200
+           dark:focus:ring-gray-600
+           shadow
+           no-underline
+           flex
+           items-center;
+}
+
+.button.button-inline {
+    @apply inline-block
+           p-1
+           dark:border-white
+           text-xs;
+}
+
+h1 {
+    @apply border-b-2
+           border-dashed
+           mb-3
+           pb-1
+           lg:text-4xl
+           text-3xl;
+}
+
+h2 {
+    @apply lg:text-3xl
+           text-2xl
+           my-3;
+}
+
+h3 {
+    @apply lg:text-2xl
+           text-xl;
+}
+
+h4 {
+    @apply lg:text-xl
+           text-lg;
+}
+
+h5 {
+    @apply lg:text-lg
+           text-base
+           font-bold;
+}
+
+.accordion:not(.open) > div:last-of-type {
+    @apply hidden;
+}
+
+.si .rti, .rti .si {
+    @apply hidden;
+}
+
+.cards {
+    @apply flex
+           flex-wrap
+           justify-between
+           mt-2;
+}
+
+.card, a.card {
+    @apply w-72
+           h-48
+           border
+           p-3
+           lg:p-5
+           m-3
+           flex
+           flex-col
+           rounded-lg
+           bg-gray-300
+           dark:bg-gray-800
+           no-underline
+           text-inherit
+           hover:shadow-[2px_10px_12px_#333]
+           dark:hover:shadow-[2px_10px_12px_#999];
+}

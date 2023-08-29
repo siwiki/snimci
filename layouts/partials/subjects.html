@@ -1,0 +1,48 @@
+{{ .Scratch.Add "icons" (slice "chevron-down" "chevron-up") }}
+
+<section id="subjects">
+    <h2>Snimci po predmetima</h2>
+    <p>
+        Ispod se nalazi podela predmeta po semestrima. Kako biste menjali perspektivu između SI i RTI,
+        koristite opciju u gornjem meniju!
+        <strong class="rti">Trenutno ste u RTI režimu.</strong>
+        <strong class="si">Trenutno ste u SI režimu.</strong>
+    </p>
+    {{ $map := dict }}
+    {{ range os.ReadDir "content" }}
+        {{ if .IsDir }}
+            {{ $pageName := .Name }}
+            {{ with $.Site.GetPage .Name }}
+                {{ $page := . }}
+                {{ range $odsek, $semesters := $page.Params.semester }}
+                    {{ if not (reflect.IsMap (index $map $odsek)) }}
+                        {{ $map = merge $map (dict $odsek dict) }}
+                    {{ end }}
+                    {{ $odsekMap := index $map $odsek }}
+                    {{ range $semester := $semesters }}
+                        {{ $semesterStr := string $semester }}
+                        {{ if not (reflect.IsSlice (index $odsekMap $semesterStr)) }}
+                            {{ $odsekMap = merge $odsekMap (dict $semesterStr slice) }}
+                        {{ end }}
+                        {{ $semesterList := index $odsekMap $semesterStr }}
+                        {{ $semesterList = append (slice $pageName) $semesterList }}
+                        {{ $odsekMap = merge $odsekMap (dict $semesterStr $semesterList) }}
+                    {{ end }}
+                    {{ $map = merge $map (dict $odsek $odsekMap) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ range $odsek, $odsekMap := $map }}
+        <div class="mt-5 {{ $odsek }}">
+        {{ range $semester, $semesterList := $odsekMap }}
+            {{ partial "accordion" (dict
+                "title" (printf "Semestar %s" $semester)
+                "partial" "subjects"
+                "context" .
+                "list" $semesterList
+                ) }}
+        {{ end }}
+        </div>
+    {{ end }}
+</section>
