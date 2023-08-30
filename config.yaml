@@ -27,19 +27,56 @@ module:
     - source: static
       target: assets
 
-params:
-  home:
-    buttons:
-      - name: subjects
-        link: "#subjects"
-      - name: about
-        link: "/about"
-      - name: sources
-        link: "/#sources"
-      - name: github
-        link: "https://github.com/siwiki/snimci"
-      - name: si-wiki
-        link: "https://siwiki.rs/"
+menu:
+  nav:
+    - name: semesters
+      url: "/"
+      weight: 1
+    - name: semester-1
+      url: "/semestar/1"
+      weight: 1
+      params:
+        class: si
+      parent: semesters
+    - name: semester-2
+      url: "/semestar/2"
+      weight: 2
+      params:
+        class: si
+      parent: semesters
+    - name: semester-3
+      url: "/semestar/3"
+      weight: 3
+      parent: semesters
+    - name: semester-4
+      url: "/semestar/4"
+      weight: 4
+      parent: semesters
+    - name: semester-5
+      url: "/semestar/5"
+      weight: 5
+      parent: semesters
+    - name: semester-6
+      url: "/semestar/6"
+      weight: 6
+      parent: semesters
+    - name: semester-7
+      url: "/semestar/7"
+      weight: 7
+      parent: semesters
+    - name: semester-8
+      url: "/semestar/8"
+      weight: 8
+      parent: semesters
+    - name: about
+      url: "/about"
+      weight: 2
+    - name: github
+      url: "https://github.com/siwiki/snimci"
+      weight: 3
+    - name: si-wiki
+      url: "https://siwiki.rs/"
+      weight: 4
 
 build:
   writeStats: true

@@ -4,10 +4,15 @@
 
     {{ partial "welcome.html" . }}
 
-    {{ partial "subjects.html" . }}
+    {{ partial "semesters.html" . }}
 
     {{ partial "sources.html" . }}
 
     {{ partial "contact.html" }}
 
+{{ end }}
+
+{{ define "scripts" }}
+    {{ $js := resources.Get "js/index.js" | minify | fingerprint "sha512" }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

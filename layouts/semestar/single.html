@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <!-- Stranica semestra -->
+    <h1>{{ .Page.Title }}</h1>
+    <p>{{ .Page.Content }}</p>
+    <h2>Predmeti</h2>
+    <p>
+        Izaberite predmet čije snimke želite da gledate.
+        <strong class="rti">Trenutno ste u RTI režimu.</strong>
+        <strong class="si">Trenutno ste u SI režimu.</strong>
+        Kako biste promenili režim, koristite opciju gornjeg menija!
+    </p>
+    {{ $semester := int .File.BaseFileName }}
+    {{ $odseci := slice "si" "rti" }}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    {{ range os.ReadDir "content" }}
+        {{ if .IsDir }}
+            {{ $pageName := .Name }}
+            {{ with $.Site.GetPage .Name }}
+                {{ $page := . }}
+                {{ range $odseci }}
+                    {{ $semesters := index $page.Params.semester . }}
+                    {{ if in $semesters $semester }}
+                    <a class="button text-center justify-center sm:text-lg m-2 {{ . }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    </div>
+{{ end }}

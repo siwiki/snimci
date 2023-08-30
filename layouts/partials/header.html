@@ -16,11 +16,22 @@
         </div>
         <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu">
             <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                {{ range .Site.Params.home.buttons }}
-                <li>
-                    <a href="{{ .link }}" class="no-underline block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
-                        {{ i18n .name }}
+                {{ range site.Menus.nav }}
+                <li class="{{ if .HasChildren }}group{{ end }}">
+                    <a href="{{ .URL | absLangURL }}" class="no-underline block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                        {{ i18n .Name }}
                     </a>
+                    {{ if .HasChildren }}
+                    <ul class="bg-white dark:bg-gray-800 max-lg:hidden lg:rounded-sm lg:transform lg:scale-0 lg:group-hover:scale-100 lg:absolute lg:transition lg:duration-100 lg:ease-in-out lg:origin-top p-3">
+                        {{ range .Children }}
+                        <li class="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md {{ .Params.class }}">
+                            <a href="{{ .URL | absURL }}" class="no-underline text-gray-700 dark:text-white block">
+                                {{ i18n .Name }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
                 </li>
                 {{ end }}
             </ul>

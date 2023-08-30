@@ -1,0 +1,16 @@
+{{ .Scratch.Add "icons" (slice "chevron-down" "chevron-up") }}
+
+<section id="semesters">
+    <h2>Snimci po semestrima</h2>
+    <p>
+        Izaberite semestar u kojem se drži predmet čije snimke želite da gledate.
+        <strong class="rti">Trenutno ste u RTI režimu.</strong>
+        <strong class="si">Trenutno ste u SI režimu.</strong>
+        Kako biste promenili režim, koristite opciju gornjeg menija!
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4" id="semester-list">
+        {{ range seq 1 8 }}
+        <a class="button text-center justify-center sm:text-lg m-2 {{ if lt . 3 }}si{{ end }}" href="/semestar/{{ . }}">{{ . }}</a>
+        {{ end }}
+    </div>
+</section>

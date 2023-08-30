@@ -37,6 +37,7 @@ a {
            shadow
            no-underline
            flex
+           flex-wrap
            items-center;
 }
 

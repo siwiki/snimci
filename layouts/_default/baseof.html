@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" media="screen" />
         {{ $js := resources.Get "js/script.js" | minify | fingerprint "sha512" }}
         <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+        {{- block "scripts" . }}{{- end }}
     </head>
     <body id="body" class="bg-gray-100 dark:bg-gray-900">
         <a class="transition bg-primary text-primary-content absolute p-3 m-3 -translate-y-16 focus:translate-y-0 mx-0 bg-white dark:bg-gray-700 text-gray-800 dark:text-white no-underline" href="#content">{{ i18n "skip-to-content" }}</a>

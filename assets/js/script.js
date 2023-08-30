@@ -36,6 +36,7 @@
         var mobileMenuToggle = document.getElementById('mobile-menu-toggle');
         var themeToggle = document.getElementById('theme-toggle');
         var odsekToggle = document.getElementById('odsek-toggle');
+        var menuGroupToggles = mobileMenu.querySelectorAll('.group > a');
         themeToggle.firstElementChild.firstElementChild.setAttribute('href', isDark ? '#moon' : '#sun');
         odsekToggle.firstElementChild.textContent = odsekPreference.toUpperCase();
         mobileMenuToggle.addEventListener('click', function() {
@@ -73,6 +74,12 @@
                     '#chevron-up' :
                     '#chevron-down'
                 );
+            });
+        }
+        for (var i = 0, l = menuGroupToggles.length; i < l; ++i) {
+            menuGroupToggles[i].addEventListener('click', function(event) {
+                event.preventDefault();
+                event.currentTarget.nextElementSibling.classList.toggle('max-lg:hidden');
             });
         }
     });
