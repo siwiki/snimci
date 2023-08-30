@@ -11,7 +11,6 @@ a {
 .buttons {
     @apply flex
            flex-wrap
-           justify-between
            w-3/4
            mx-auto
            my-5;
@@ -90,7 +89,6 @@ h5 {
 .cards {
     @apply flex
            flex-wrap
-           justify-between
            mt-2;
 }
 
