@@ -1,7 +1,7 @@
 baseURL: "https://snimci.siwiki.rs/"
-languageCode: "sr-RS"
+languageCode: "sr-Latn-RS"
 title: "SI/RTI snimci"
-defaultContentLanguage: "sr"
+defaultContentLanguage: "sr-latn"
 pluralizelisttitles: "false"
 enableRobotsTXT: true
 disableKinds:
