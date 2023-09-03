@@ -6,7 +6,7 @@ years:
     videos:
       - title: Valgrind (1)
         date: 2022-03-25T00:00:00.000Z
-        number: 1.01
+        number: 1.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ea7UrnaVesxGrproZheXBfYBWzjI9n699ReXBH8uOU2UYQ
@@ -14,7 +14,7 @@ years:
               2022-03-25 - Valgrind (1).mp4
       - title: Valgrind (2)
         date: 2022-03-25T00:00:00.000Z
-        number: 1.02
+        number: 1.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbgOGH_y0gpEp_d5I50qXSgBjc9YXxaHU6PdhUyXsaOSvw
@@ -22,7 +22,7 @@ years:
               2022-03-25 - Valgrind (2).mp4
       - title: Simulator keš memorije (1)
         date: 2022-04-08T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXf7srYWq6ZFk6qFMqP7QckBb2y_UDNSWZ2oEyIsMvCyWg
@@ -30,7 +30,7 @@ years:
               2022-04-08 - Simulator keš memorije (1).mp4
       - title: Simulator keš memorije (2)
         date: 2022-04-08T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXg0lD1f_OJAiJauCHYCkxgBvrYoxYWmDTCXJfh8AfyK8Q

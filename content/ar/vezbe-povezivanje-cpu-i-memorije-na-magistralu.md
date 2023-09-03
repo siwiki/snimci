@@ -6,7 +6,7 @@ years:
     videos:
       - title: Povezivanje CPU i memorije na magistralu, zadatak 1
         date: 2020-04-10T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ESPhixlI7NRFnxyWsGg-j1UBGrmq6fAQt-iqTi78XG3y1Q
@@ -15,7 +15,7 @@ years:
               magistralu, zadatak 1.mp4
       - title: Povezivanje CPU i memorije na magistralu, zadatak 2, zadatak 3
         date: 2020-04-10T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbZBleuUCA9MsXWc8pASb44BoQmfl9iqB1ZaAF9xVn2zBA
@@ -26,7 +26,7 @@ years:
     videos:
       - title: Povezivanje CPU i memorije na magistralu, zadaci 1 i 2
         date: 2021-04-20T00:00:00.000Z
-        number: 7.01
+        number: 7.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EfvntXITKyRPjOYHufUoPcsBK97cXr5Z4NKdr0o_lqdlmw
@@ -35,7 +35,7 @@ years:
               magistralu, zadaci 1 i 2.mp4
       - title: Povezivanje CPU i memorije na magistralu, zadaci 2 i 3
         date: 2021-04-20T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ER1oO2IhJ5JCrt_9nXPhjc0BwNXiOl0f3ssxuWWZyrUHGw

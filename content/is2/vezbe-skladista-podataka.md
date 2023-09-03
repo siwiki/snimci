@@ -16,7 +16,7 @@ years:
               upiti, lekarska ordinacija.mp4
       - title: Skladišta podataka, lekarska ordinacija, video klub
         date: 2020-12-29T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EejCmVUJqflLkWvr7aq1vwsBKkFO5fi2yXgDhuprfybhVg
@@ -24,7 +24,7 @@ years:
               Skladišta podataka, lekarska ordinacija, video klub.mp4
       - title: Skladišta podataka, Spoon, arhiviranje i dodavanje novih korisnika
         date: 2020-12-29T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXlCvFW9a8lOuQP72GZgCckBSa2oGDL2hlrAvlvsZrVWzg

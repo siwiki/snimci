@@ -57,7 +57,7 @@ categories:
               januarskom roku.mp4
       - title: SQLite sa C++, prepare, exec
         date: 2020-12-09T00:00:00.000Z
-        number: 1.01
+        number: 1.1
         header: Labovi
         links:
           - source: savic
@@ -66,7 +66,7 @@ categories:
               exec.mp4
       - title: SQL injection, bind, transakcije
         date: 2020-12-09T00:00:00.000Z
-        number: 1.02
+        number: 1.2
         header: Labovi
         links:
           - source: savic
@@ -84,7 +84,7 @@ categories:
               laboratorijska vežba.mp4
       - title: Sistemi baza podataka
         date: 2020-10-12T00:00:00.000Z
-        number: 1.01
+        number: 1.1
         header: Predavanja
         links:
           - source: savic
@@ -93,7 +93,7 @@ categories:
               podataka.mp4
       - title: Model EO do kardinalnosti mapiranja
         date: 2020-10-12T00:00:00.000Z
-        number: 1.02
+        number: 1.2
         header: Predavanja
         links:
           - source: savic

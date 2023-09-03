@@ -6,7 +6,7 @@ years:
     videos:
       - title: JPA uvod, postojani tipovi, entitetska polja
         date: 2020-11-24T00:00:00.000Z
-        number: 7.01
+        number: 7.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQv0p2WFNq1GlmCBvNuND4MBcstt3FZjwMgj54sfS0yILw
@@ -14,7 +14,7 @@ years:
               2020-11-24 - JPA uvod, postojani tipovi, entitetska polja.mp4
       - title: Entitetska polja, jedinica perzistencije, MySQL Workbench, šahovski savez
         date: 2020-11-24T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERwVhAYrbmxBrxXgIHl8NogBiPv9aTmX4J23Ma1pXc7yBA
@@ -23,7 +23,7 @@ years:
               Workbench, šahovski savez.mp4
       - title: Šahovski savez, generisanje klasa iz baze podataka
         date: 2020-12-01T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWzaXcYQhk5MnDq7KujufmgB7RchV0Qpf0Do3dyUTDMXAQ
@@ -32,7 +32,7 @@ years:
               podataka.mp4
       - title: Šahovski savez, povezivanje preko JPA, rad sa entitetskim objektima
         date: 2020-12-01T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVDDrWZkcfJIiXUtaOeyWuwBR4QNHXXTz2R7Z7z_Rbmz-Q
@@ -41,7 +41,7 @@ years:
               entitetskim objektima.mp4
       - title: Rad sa entitetskim objektima, JPQL
         date: 2020-12-15T00:00:00.000Z
-        number: 9.01
+        number: 9.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ech5v_ZgROxNv7t5EeiDDnkBEzzZ_iOVURkRV0eTRq7sdQ
@@ -49,7 +49,7 @@ years:
               2020-12-15 - Rad sa entitetskim objektima, JPQL.mp4
       - title: Gradilište, stvaranje baze podataka iz JPA
         date: 2020-12-15T00:00:00.000Z
-        number: 9.02
+        number: 9.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EfOSFXEBTMdKoI_UxetIdQ4B94QMIlrQps_L9n_5aQOqaA
@@ -57,7 +57,7 @@ years:
               2020-12-15 - Gradilište, stvaranje baze podataka iz JPA.mp4
       - title: Gradilište, JPQL
         date: 2020-12-18T00:00:00.000Z
-        number: 10.01
+        number: 10.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EV9qgSSZCiJPusG9brAAJ74B5C7EaiiirdUxPFRA0IK0jw
@@ -65,7 +65,7 @@ years:
               2020-12-18 - Gradilište, JPQL.mp4
       - title: JPQL
         date: 2020-12-18T00:00:00.000Z
-        number: 10.02
+        number: 10.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EennOfVn495Cs0f2320jNgEBdEJstJaIZkRmPtmEfaS1qw

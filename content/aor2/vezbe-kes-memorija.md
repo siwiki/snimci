@@ -14,7 +14,7 @@ years:
               memorija, zadaci 1 i 2, simulator.mp4
       - title: Keš memorija, zadaci 4 i 5
         date: 2022-03-18T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ER8xo31kDW5Ik514s9MAwRwB9zSIIp33vD-lmNfMvPdhwA
@@ -22,7 +22,7 @@ years:
               memorija, zadaci 4 i 5.mp4
       - title: Rad u simulatoru keš memorije
         date: 2022-03-18T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWCVaoWcwRxIl29K8OOR-qIBGF4wupZVxqBajT5s9eR-8g
@@ -30,7 +30,7 @@ years:
               simulatoru keš memorije.mp4
       - title: Prefetch, zadaci 6 i 7, Valgrind
         date: 2022-04-29T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ESA9ATzx1ExFgx_MHQDz2X8B7KXnyTdKn4bMYUcm7SxxXw
@@ -38,7 +38,7 @@ years:
               Prefetch, zadaci 6 i 7, Valgrind.mp4
       - title: Prefetch, zadaci 8, 10 i 11
         date: 2022-04-29T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQc2PY-3U-VFpwds6_UMLRoBhgcr9ssjqfpT78EeGh8JfQ

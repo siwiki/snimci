@@ -6,7 +6,7 @@ years:
     videos:
       - title: Uvod u NoSQL, odlike
         date: 2021-04-02T00:00:00.000Z
-        number: 1.01
+        number: 1.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EdR8DRxwvfdKqDzoyChPUvoBYTE3TEwQ7lr3ZZ7Wx9F6_g
@@ -14,7 +14,7 @@ years:
               NoSQL, odlike.mp4
       - title: Odlike NoSQL baza
         date: 2021-04-02T00:00:00.000Z
-        number: 1.02
+        number: 1.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWekTJVX0AdCkTYRd653JEYByAF9uhNLKjbJ12aX3qWHlg
@@ -22,7 +22,7 @@ years:
               NoSQL baza.mp4
       - title: MongoDB, razlike od relacionog modela, skaliranje
         date: 2021-04-09T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ETeGbNYYRrlKrRIAZRSH2VoBbBLSQyDH_QDUD4oakRlhHA
@@ -31,7 +31,7 @@ years:
       - title: Insert, find, sort, limit, skip, create, count, distinct, group, upsert,
           update, referisanje
         date: 2021-04-09T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EV89jVaiJS9Hl0h9XSQUn08BZucS1rspijM-SmHiTl9UWQ
@@ -40,7 +40,7 @@ years:
               update, referisanje.mp4
       - title: Map-reduce
         date: 2021-04-16T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWGInA4gyb5Dq17gvQQpjUABfCybrODDnBA4uJxNKijlWg
@@ -48,7 +48,7 @@ years:
               Map-reduce.mp4
       - title: Agregacija, pravljenje modela baze
         date: 2021-04-16T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ETI5BMbWNElNrY4OBL0spnEBpJVxcsITQFM5oqPs7ElybQ

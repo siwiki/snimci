@@ -6,7 +6,7 @@ years:
     videos:
       - title: Primeri 1-3c
         date: 2020-04-03T00:00:00.000Z
-        number: 7.01
+        number: 7.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EUCfDj0BH4ZLgvt8nkeJDrQBXV_-KUZfoIUCk312AGi13g
@@ -14,7 +14,7 @@ years:
               - 2020-04-03 - Primeri 1-3c.mp4
       - title: Primeri 3d-4, pouzdanost i dostupnost sistema
         date: 2020-04-03T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ed1hcpGubiJBqiWp65vO4_8BKKTUojmuovhdP10pMevYlg
@@ -22,7 +22,7 @@ years:
               - 2020-04-03 - Primeri 3d-4, pouzdanost i dostupnost sistema.mp4
       - title: Primeri 5-8, performanse sistema
         date: 2020-04-10T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYUhur0vvBVDvaxXl00sZEIBV9lYq4CbDz0K5HPezY1_vg

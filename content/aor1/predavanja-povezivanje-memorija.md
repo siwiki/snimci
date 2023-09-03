@@ -6,7 +6,7 @@ years:
     videos:
       - title: Uvod u povezivanje memorija, virtuelna keš memorija
         date: 2020-11-17T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EarRjGkKzz1Is0HQdN52HFgBF_Y_A4qeDtoslJsU9ghUew
@@ -15,7 +15,7 @@ years:
               memorija.mp4
       - title: Realna keš memorija, ulazno-izlazni uređaji
         date: 2020-11-24T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ESE_dgdUtZVJiXzyA66JhaQBDzXj1jkSzSG-KICmdNBjBw
@@ -24,7 +24,7 @@ years:
       - title: Širina memorijske reči, preklapanje pristupa memoriji, i7 memorijski
           sistem
         date: 2020-11-24T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXyO2hlhxapAn4QFkwJXaUsB1chuVofNZNMflA9KRnrh5g
@@ -33,7 +33,7 @@ years:
               memoriji, i7 memorijski sistem.mp4
       - title: Performanse keš memorije
         date: 2020-12-01T00:00:00.000Z
-        number: 9.01
+        number: 9.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZSX_Bq0T29JlqyOsfAS2GoBrdaH7WJeHCVhLapwsHC5xQ
@@ -43,7 +43,7 @@ years:
     videos:
       - title: Povezivanje memorija, realna keš memorija, ulazno-izlazni uređaji
         date: 2021-11-23T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ec3LfJU2W1RJoHzQMXOqb-4B3BK9e4CysIU6CD2h1w3bRQ
@@ -53,7 +53,7 @@ years:
       - title: Širina memorijske reči, preklapanje pristupa memoriji, i7 memorijski
           sistem
         date: 2021-11-23T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Eam5VfBYOChOlfJswWg91sgB8JqD8nx-okpt8f9Os8asIg
@@ -62,7 +62,7 @@ years:
               memoriji, i7 memorijski sistem.mp4
       - title: i7 memorijski sistem, performanse keš memorije
         date: 2021-11-30T00:00:00.000Z
-        number: 9.01
+        number: 9.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ed1k8kTYoC1EnA4wTVuCkKUBOo0821Fosln9roQDdqZW1g

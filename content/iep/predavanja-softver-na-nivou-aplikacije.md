@@ -7,7 +7,7 @@ years:
       - title: Baza podataka, veb server, klijent-server arhitekture, aplikativni
           server, DMZ, proksi serveri
         date: 2020-04-24T00:00:00.000Z
-        number: 10.01
+        number: 10.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWbf-rWoW5VDtGn4UXp10uUBKC9yuOhyVc_xJR9FOOvdcg
@@ -16,7 +16,7 @@ years:
               arhitekture, aplikativni server, DMZ, proksi serveri.mp4
       - title: Primeri dinamičkih stranica 10-12
         date: 2020-04-24T00:00:00.000Z
-        number: 10.02
+        number: 10.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbwFZaZHeT5Dkg5Khy3JNCgBMB_mUz5U-rh7lXA8B-WGyg
@@ -24,7 +24,7 @@ years:
               2020-04-24 - Primeri dinamičkih stranica 10-12.mp4
       - title: Primeri dinamičkih stranica 12-13
         date: 2020-05-01T00:00:00.000Z
-        number: 11.01
+        number: 11.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVkThTiGfexEh_tpJk5T4NsBfzA7DBzVgkej2huhlo0nzw
@@ -32,7 +32,7 @@ years:
               2020-05-01 - Primeri dinamičkih stranica 12-13.mp4
       - title: Rek ormani, UPS, Blade, load balancer, firewall, primer
         date: 2020-05-01T00:00:00.000Z
-        number: 11.02
+        number: 11.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXbSrTYNjflPu_k4W-IQRekBr2XCmmEzloTTtqrAUnbSjQ

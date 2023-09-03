@@ -6,7 +6,7 @@ years:
     videos:
       - title: Model školske table, problemi zadovoljenja ograničenja
         date: 2020-11-24T00:00:00.000Z
-        number: 7.01
+        number: 7.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQxAjBAD5rJDtqSNrfZvEcIBFulifaA0wUah2KUBofDQOA
@@ -16,7 +16,7 @@ years:
       - title: Bojenje mape, graf ograničenja, varijacije, kriptoaritmetika,
           konzistencija grane, AC-3
         date: 2020-12-01T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ea3yMv1ecBFFrKkWof34iQsBGKs0C8GrXS6D54Ii2phwtA
@@ -25,7 +25,7 @@ years:
               varijacije, kriptoaritmetika, konzistencija grane, AC-3.mp4
       - title: AC-3, MAC
         date: 2020-12-01T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWb8T0ut-RBOp9g_CxlE55cBlLBUGazG_TZAg549d7949A

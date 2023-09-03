@@ -6,7 +6,7 @@ years:
     videos:
       - title: Indukcioni sistemi, mašinsko učenje, ID3
         date: 2020-12-22T00:00:00.000Z
-        number: 10.01
+        number: 10.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EREkoj7n6EhNv2xPWYxnOVMB--vob_GP98AkAeEznSvF3A
@@ -14,7 +14,7 @@ years:
               2020-12-22 - Indukcioni sistemi, mašinsko učenje, ID3.mp4
       - title: ID3, razvoj induktivnog ekspertskog sistema
         date: 2020-12-29T00:00:00.000Z
-        number: 10.02
+        number: 10.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXeAueVzIbBEulocFIq8BsMBhRd6YSKo4ULPcoybrGC7mg
@@ -22,7 +22,7 @@ years:
               2020-12-29 - ID3, razvoj induktivnog ekspertskog sistema.mp4
       - title: kNN
         date: 2020-12-29T00:00:00.000Z
-        number: 11.01
+        number: 11.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXUJyKaR779Buz5momDr69sBT7tAp8_y23RKlpV7bGn8HQ
@@ -30,7 +30,7 @@ years:
               2020-12-29 - kNN.mp4
       - title: Linearna regresija
         date: 2021-01-11T00:00:00.000Z
-        number: 11.02
+        number: 11.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EW7xis56JcxDgATpNIIUD8cBke1_RJoqioM9sL332m8ARg

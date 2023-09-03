@@ -6,7 +6,7 @@ years:
     videos:
       - title: Simulator predikcije skokova (1)
         date: 2022-05-27T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ETt33dB9oCpNkT8K09zRT-ABnpbxA0jorPNdLDMHlFibQQ
@@ -14,7 +14,7 @@ years:
               2022-05-27 - Simulator predikcije skokova (1).mp4
       - title: Simulator predikcije skokova (2)
         date: 2022-05-27T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ESoBWIWbMBRDqXD-bBOafqYBlRg-SPjSk-8zgXAforNAlw

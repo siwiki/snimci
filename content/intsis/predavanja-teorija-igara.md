@@ -6,7 +6,7 @@ years:
     videos:
       - title: Igre i veštačka inteligencija, MINIMAX
         date: 2020-10-27T00:00:00.000Z
-        number: 4.02
+        number: 4.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXX4wvLHz1dCo7v_f331PDQBPIF4ndg_gD6Tme8z3R3Q3w
@@ -14,7 +14,7 @@ years:
               2020-10-27 - Igre i veštačka inteligencija, MINIMAX.mp4
       - title: Alfa-beta odsecanje, Negamax, Negascout
         date: 2020-11-10T00:00:00.000Z
-        number: 5.01
+        number: 5.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbM3FfHESgFHocoDV3GcIlQBWuJlLgL5SU97X0QO47HFAw
@@ -24,7 +24,7 @@ years:
     videos:
       - title: Igre i veštačka inteligencija
         date: 2021-10-26T00:00:00.000Z
-        number: 4.01
+        number: 4.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYMYrD9Q6QJMmALxs4QqftABFAwzfF_4So_WiQJXsswrww
@@ -32,7 +32,7 @@ years:
               2021-10-26 - Igre i veštačka inteligencija.mp4
       - title: MINIMAX, alfa-beta odsecanje
         date: 2021-10-26T00:00:00.000Z
-        number: 4.02
+        number: 4.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EazRgT6oqPlIriyzhonajqIBBnVfozK6cS0cuuQOkahjNA

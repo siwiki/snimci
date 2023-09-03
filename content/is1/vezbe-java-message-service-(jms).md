@@ -6,7 +6,7 @@ years:
     videos:
       - title: JMS uvod i pravljenje resursa
         date: 2020-10-27T00:00:00.000Z
-        number: 4.01
+        number: 4.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ESrP-QSSY51OvkrvRabQYxYBY3d0qxp4Hhhmht-fOG9bDA
@@ -14,7 +14,7 @@ years:
               2020-10-27 - JMS uvod i pravljenje resursa.mp4
       - title: JMS, pošiljalac i primalac
         date: 2020-10-27T00:00:00.000Z
-        number: 4.02
+        number: 4.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWvDYLyzHYNDmraefKMpw8cBli_moQrjn8sZWLjQOQuQyQ
@@ -22,7 +22,7 @@ years:
               2020-10-27 - JMS, pošiljalac i primalac.mp4
       - title: JMS poruke, pub-sub, subscription, topic
         date: 2020-11-10T00:00:00.000Z
-        number: 5.01
+        number: 5.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EU6G6cfJh21KrB8unOJ2IBoBago4nHyg1oFwxpN-epgglA
@@ -30,7 +30,7 @@ years:
               2020-11-10 - JMS poruke, pub-sub, subscription, topic.mp4
       - title: Menadžer i radnici
         date: 2020-11-10T00:00:00.000Z
-        number: 5.02
+        number: 5.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EdLsWNbH-9hGjN8ZXmEcT4sBb8YWm7owIEEdhpn1qe6Pqw
@@ -38,7 +38,7 @@ years:
               2020-11-10 - Menadžer i radnici.mp4
       - title: Menadžer i radnici 2, message listener
         date: 2020-11-17T00:00:00.000Z
-        number: 6.01
+        number: 6.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ETtU7gtOm5pAhB2ALw7uqQABMMOcRdxKfqBwxsobqBr_tw
@@ -46,7 +46,7 @@ years:
               2020-11-17 - Menadžer i radnici 2, message listener.mp4
       - title: JMS Queue Browser, novosti
         date: 2020-11-17T00:00:00.000Z
-        number: 6.02
+        number: 6.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZw2mGqDGX9DquPea8npF_4Bz291qc9Z2DrpFF0BNudoOg

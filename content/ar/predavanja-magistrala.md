@@ -6,7 +6,7 @@ years:
     videos:
       - title: Uvod u magistralu, komponente, tipovi, ciklusi
         date: 2020-03-18T00:00:00.000Z
-        number: 1.01
+        number: 1.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERnuTqubVEZArid89d6i3o4BttJXmHZX09_goB52Yb3Xog
@@ -14,7 +14,7 @@ years:
               Uvod u magistralu, komponente, tipovi, ciklusi.mp4
       - title: Ciklusi
         date: 2020-03-18T00:00:00.000Z
-        number: 1.02
+        number: 1.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ee7KKDxrqSNMsCuK__h00aQBrBbW-pPLLg7PxtKsiyeqQA
@@ -22,7 +22,7 @@ years:
               Ciklusi.mp4
       - title: Magistrala sa podeljenim ciklusima, asinhrona magistrala
         date: 2020-03-23T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ETbQkfrMM61JpCV4p1mJO-QB1ZMR3KpFeXFE2RhAgP5_kA
@@ -30,7 +30,7 @@ years:
               Magistrala sa podeljenim ciklusima, asinhrona magistrala.mp4
       - title: Sinhrona magistrala, arbitracija
         date: 2020-03-23T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EaaGNxbNetNBo3QQvPBazXEBZCR05Ou9Q9cszdybSutZIA
@@ -38,7 +38,7 @@ years:
               Sinhrona magistrala, arbitracija.mp4
       - title: Paralelna i serijska arbitracija
         date: 2020-03-30T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVKfFdJGPu1Ljz-aqzBUSKIBUb3mFQSN28qgGVMa-8UNWw
@@ -47,7 +47,7 @@ years:
       - title: Praćenje i pamćenje zahteva, adresiranje uređaja, sistemi sa više
           magistrala, primeri
         date: 2020-03-30T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EW0N_rWFRhBBulMHkDAZjj8BZIxuQIxgXIgvOXZ9iAHG0w
@@ -58,7 +58,7 @@ years:
     videos:
       - title: Uvod u magistralu, komponente, tipovi, ciklusi
         date: 2021-03-29T00:00:00.000Z
-        number: 5.01
+        number: 5.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EUysIPkOUGhJmYviavGLYvMB0NDmj4GMp1Tr9jYcQ2UC0w
@@ -66,7 +66,7 @@ years:
               Uvod u magistralu, komponente, tipovi, ciklusi.mp4
       - title: Asinhrona i sinhrona magistrala
         date: 2021-03-29T00:00:00.000Z
-        number: 5.02
+        number: 5.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYBv6tqCMdhOiJSvnJfcKUIBQDMycffhp6iUGBVYp2nQ1Q
@@ -74,7 +74,7 @@ years:
               Asinhrona i sinhrona magistrala.mp4
       - title: Magistrala sa podeljenim ciklusima
         date: 2021-04-05T00:00:00.000Z
-        number: 6.01
+        number: 6.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EcMW92uK9mxIrBm6lKYt118Bhmu3X3jkp4kQoDe8MzW_Sg
@@ -82,7 +82,7 @@ years:
               Magistrala sa podeljenim ciklusima.mp4
       - title: Magistrala sa podeljenim ciklusima, arbitracija
         date: 2021-04-05T00:00:00.000Z
-        number: 6.02
+        number: 6.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZkWcY4XTAFGp99316n7cj0B0He4406uIWLWawzOGjYS8g
@@ -90,7 +90,7 @@ years:
               Magistrala sa podeljenim ciklusima, arbitracija.mp4
       - title: Paralelna i serijska arbitracija
         date: 2021-04-13T00:00:00.000Z
-        number: 7.01
+        number: 7.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ef48VYurx4tBlWcBUEXo-G8BvJ4wYe2bxWArv0kyObo9XA
@@ -99,7 +99,7 @@ years:
       - title: Praćenje i pamćenje zahteva, adresiranje uređaja, sistemi sa više
           magistrala, primeri
         date: 2021-04-13T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXpO6saJ6X1PsKZU6Bi_mEQBKynY6hRGHTeXbbywYWZsxg

@@ -6,7 +6,7 @@ years:
     videos:
       - title: Prefetch zadatak sa K 2019, uvod u DRAM
         date: 2021-05-14T00:00:00.000Z
-        number: 4.01
+        number: 4.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXrBPCxxVl5IuP5wfsmc1MMBeDVP-NP9lgV1du9LPJNBhA
@@ -14,7 +14,7 @@ years:
               zadatak sa K 2019, uvod u DRAM.mp4
       - title: DRAM, zadatak 1
         date: 2021-05-14T00:00:00.000Z
-        number: 4.02
+        number: 4.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EcBZLbaUaHRPjA4KdbvzFlEBgkbobnFHdzvsA2J0oryCsQ

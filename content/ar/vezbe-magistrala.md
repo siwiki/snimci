@@ -6,7 +6,7 @@ years:
     videos:
       - title: Magistrala, zadatak 2
         date: 2020-04-03T00:00:00.000Z
-        number: 7.01
+        number: 7.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZFr5X7vsI5EoBnYfqAoqjYBH7lylori0zyUJoGjVGwZ5A
@@ -14,7 +14,7 @@ years:
               Magistrala, zadatak 2.mp4
       - title: Magistrala, zadatak 4, zadatak 6
         date: 2020-04-03T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ec4hHRZTKkRFkBtBR_ZteUUB7F5nnHqCjJJjQ777foOyHg
@@ -24,7 +24,7 @@ years:
     videos:
       - title: Magistrala, zadatak 2
         date: 2021-04-13T00:00:00.000Z
-        number: 6.01
+        number: 6.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbOx07usDa1DufyLPxl1XSUBfJPRbNrjnvPudvvL41aUhw
@@ -32,7 +32,7 @@ years:
               Magistrala, zadatak 2.mp4
       - title: Magistrala, zadaci 4 i 6
         date: 2021-04-13T00:00:00.000Z
-        number: 6.02
+        number: 6.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ESVBrtdUTEpGv51ozF_TRVkBLVviL4R-Wyuptpb8oksGAw

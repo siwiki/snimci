@@ -6,7 +6,7 @@ years:
     videos:
       - title: Propozicije, model EO, zavisne klase entiteta
         date: 2020-10-07T00:00:00.000Z
-        number: 1.01
+        number: 1.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ES_u17lzVB9JrtRa2JY3xpABE-Pa_GP9u_WIzMsJpZ8NvA
@@ -14,7 +14,7 @@ years:
               model EO, zavisne klase entiteta.mp4
       - title: Primeri 1 i 2, egzistencijalna i identifikaciona zavisnost, diskriminator
         date: 2020-10-07T00:00:00.000Z
-        number: 1.02
+        number: 1.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERFq8SEw9qhNmLRp4pWmFuwBVkB-Tac_yV1tY9e0CHMtOw
@@ -22,7 +22,7 @@ years:
               2, egzistencijalna i identifikaciona zavisnost, diskriminator.mp4
       - title: Primer 3, specijalizacija i generalizacija, klase veza
         date: 2020-10-14T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZGoIP7flUdJgiP1Di0T7j0BZl8y4410jT0FOpWy_1X-BA
@@ -30,7 +30,7 @@ years:
               specijalizacija i generalizacija, klase veza.mp4
       - title: Primeri 4, 5, 6
         date: 2020-10-14T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZUZ16YeBY5LsgEXPHBEyLIBemHOsW4gVuCN7A94yvQAwA
@@ -38,7 +38,7 @@ years:
               5, 6.mp4
       - title: Ključevi, zadatak 1 (banka)
         date: 2020-10-21T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQY-30IO5ABMq5LPwfuRfjABshMUeMjUbmuWNbIHLxwy7Q
@@ -46,7 +46,7 @@ years:
               zadatak 1 (banka).mp4
       - title: Zadatak 2 (video klub)
         date: 2020-10-21T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ee_INXtKQMdPm7U1y9Mi_QEBFRF1Zs_pY9P1qal1LAiyyA
@@ -54,7 +54,7 @@ years:
               (video klub).mp4
       - title: Zadatak 3 (fudbalski savez)
         date: 2020-10-28T00:00:00.000Z
-        number: 4.01
+        number: 4.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EU836cKPvU5HiEpNhuQwTKEBcxyN5_HBJPjNTJf3LhQyUg
@@ -62,7 +62,7 @@ years:
               (fudbalski savez).mp4
       - title: Zadatak 4 (šahovski savez)
         date: 2020-10-28T00:00:00.000Z
-        number: 4.02
+        number: 4.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ER_FzdbS2kJBhGRaKmN4_i8B2S9n7DWoWNepSQndnJN7Lw
@@ -70,7 +70,7 @@ years:
               (šahovski savez).mp4
       - title: Zadatak 5 (IT inventar)
         date: 2020-10-30T00:00:00.000Z
-        number: 5.01
+        number: 5.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EfnwZtt8SVFPkTorT38PkdgBlagwx-_nmVGk1N4Ofcy6lw
@@ -78,7 +78,7 @@ years:
               (IT inventar).mp4
       - title: Zadatak 6 (farmaceutska kompanija), K1P 2019
         date: 2020-10-30T00:00:00.000Z
-        number: 5.02
+        number: 5.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EdOt2DC11ddDoaZzoLE33BQBS0lxhQBHZAot6cVD2WDVSw

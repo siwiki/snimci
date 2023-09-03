@@ -6,7 +6,7 @@ years:
     videos:
       - title: Redukcija
         date: 2020-12-16T00:00:00.000Z
-        number: 9.01
+        number: 9.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWhKQZS12XNAqHxC4i786WcBEusqmvMFB7IKl9zgPzUtWQ
@@ -14,7 +14,7 @@ years:
               Redukcija.mp4
       - title: Primeri redukcije
         date: 2020-12-16T00:00:00.000Z
-        number: 9.02
+        number: 9.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERgOCuhcEyNDi5xZ8S70S6EBExkVXcIV4DvSq6SkK6w16A

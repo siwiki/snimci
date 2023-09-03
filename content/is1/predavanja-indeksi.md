@@ -6,7 +6,7 @@ years:
     videos:
       - title: Indeksi
         date: 2020-12-23T00:00:00.000Z
-        number: 11.01
+        number: 11.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQiOCOkQf_xAjp4AAVofBhABwiMMrBLcsLDD-6B7UjLKRg

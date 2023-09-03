@@ -6,7 +6,7 @@ years:
     videos:
       - title: Uvod, virtuelizacija
         date: 2020-05-08T00:00:00.000Z
-        number: 12.01
+        number: 12.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbjuZ82PIVFNk-L6Q1htu-EB26FCnBFn2mGppGy8bBJXbg
@@ -14,7 +14,7 @@ years:
               2020-05-08 - Uvod, virtuelizacija.mp4
       - title: Infrastruktura u oblaku, računanje cene, primeri 12-14
         date: 2020-05-08T00:00:00.000Z
-        number: 12.02
+        number: 12.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Eflx9r5yQ_hKuMS_ddx4pggB19jp1FXRs928ZB5v6U1ThQ

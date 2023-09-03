@@ -6,7 +6,7 @@ years:
     videos:
       - title: Strategije rešavanja problema, STRIPS
         date: 2020-11-17T00:00:00.000Z
-        number: 6.01
+        number: 6.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ef64FmTLQM5FjE5hW7KyXPgBFS9JfnlaPMXu04V-wLwtgQ
@@ -15,7 +15,7 @@ years:
               STRIPS.mp4
       - title: STRIPS primer, model školske table
         date: 2020-11-24T00:00:00.000Z
-        number: 6.02
+        number: 6.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EeoKlTOWeONLmbexcMnwUhsBPy_avocy5IwRT1vLV-8Dbw

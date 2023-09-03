@@ -6,7 +6,7 @@ years:
     videos:
       - title: Uvod u SOA
         date: 2020-11-16T00:00:00.000Z
-        number: 7.02
+        number: 7.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EfkostV2cw9OgwEYluYUsIIBA09j3xS2yugQGuPROn7PYw
@@ -14,7 +14,7 @@ years:
               SOA.mp4
       - title: SOA dizajn
         date: 2020-11-16T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EawWCuE6NbdKljvlk3ZwavIBC3I4DGeDGsJZw0cSACItrw
@@ -22,7 +22,7 @@ years:
               dizajn.mp4
       - title: SOA interkacije
         date: 2020-11-16T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EU8d0qz0VipKrXYg-0scwJwB_R-ZL1MoqMZCfBbmAUGyjg
@@ -30,7 +30,7 @@ years:
               interkacije.mp4
       - title: SOA implementacija
         date: 2020-11-23T00:00:00.000Z
-        number: 9.01
+        number: 9.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EeWtfWP0pbVKhO3_m1gx7qABKqGW-BzBCnkf2DJ3IGIQeQ
@@ -38,7 +38,7 @@ years:
               implementacija.mp4
       - title: SOA ispitni primer
         date: 2020-11-23T00:00:00.000Z
-        number: 9.02
+        number: 9.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYTrvkw2Yk1PscVwqPA1HZwBTLG0PiX78XI0ULraM1Ul2w
@@ -46,7 +46,7 @@ years:
               primer.mp4
       - title: SOA poslovni primer
         date: 2020-11-23T00:00:00.000Z
-        number: 9.03
+        number: 9.3
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EecUN4Nz1eFIqdPYIK36z94BhqBQgxancRMdvoqMk5V38Q

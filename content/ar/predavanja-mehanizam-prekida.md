@@ -14,7 +14,7 @@ years:
               - Uvod u mehanizam prekida, tipovi, čuvanje konteksta.mp4
       - title: Utvrđivanje adrese prekidne rutine i dodela broja ulaza
         date: 2021-03-08T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Edm3q0rmgvVNmvGSngLPuzIB_8Wk3XCDO7dY0si2g1qF7A
@@ -23,7 +23,7 @@ years:
               ulaza.mp4
       - title: Tabela prekidnih rutina, bitovi PSW, povratak iz prekidne rutine
         date: 2021-03-08T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EUxQVhtyOw5Go7WA6Ip9kaUBmigfRKPKUwvIeXTfeEvEEg
@@ -32,7 +32,7 @@ years:
               prekidne rutine.mp4
       - title: Prioriteti prekida, maskiranje
         date: 2021-03-15T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EeC0DQv0z5BKi1asZ345i6wBSQbLY7Ywr4yQl-tFlcbjiQ
@@ -40,7 +40,7 @@ years:
               2021-03-15 - Prioriteti prekida, maskiranje.mp4
       - title: Gnežđenje prekida, situacije 1-4
         date: 2021-03-15T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXPZx25UR2ZMn3KjHfyh05MBpjD_mcpbjCFz5CdRW2f85w
@@ -48,7 +48,7 @@ years:
               2021-03-15 - Gnežđenje prekida, situacije 1-4.mp4
       - title: Situacije 5-10
         date: 2021-03-22T00:00:00.000Z
-        number: 4.01
+        number: 4.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERjvZ6CGI2tCtvpXqVcNduEBoxiIJyNl-gWqy5cLc3hnzg
@@ -56,7 +56,7 @@ years:
               2021-03-22 - Situacije 5-10.mp4
       - title: Situacije 11-13, organizacija
         date: 2021-03-22T00:00:00.000Z
-        number: 4.02
+        number: 4.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVPg7UJK1_pChYlQ4Nf48roBqtVE7ProbhrFXWzKIheLsQ

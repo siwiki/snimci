@@ -26,7 +26,7 @@ years:
               konkatenacija.mp4
       - title: Primeri 59-64, ugnežđeni upiti, IN, ANY, ALL, EXISTS
         date: 2020-12-16T00:00:00.000Z
-        number: 12.01
+        number: 12.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYXjnJlKEj9DqjcXRESBHHABKJtOUmkIl6lOoOWWX7VNkg
@@ -34,7 +34,7 @@ years:
               ugnežđeni upiti, IN, ANY, ALL, EXISTS.mp4
       - title: Primeri 65-72, UNION, INTERSECT, EXCEPT, CASE
         date: 2020-12-16T00:00:00.000Z
-        number: 12.02
+        number: 12.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZBbHGL1an5Jn-QJ4yz-QkABBUtBqXkX3LNIDl8womB1oQ
@@ -52,7 +52,7 @@ years:
               2.mp4
       - title: Primeri 85-89, WITH, CAST, rekurzivni upiti
         date: 2020-12-30T00:00:00.000Z
-        number: 14.01
+        number: 14.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZGl0tOGLutLtZICFCLryeMBaX0QjQ0QwiqiNfDFy76FSw
@@ -60,7 +60,7 @@ years:
               WITH, CAST, rekurzivni upiti.mp4
       - title: Primeri 91-92
         date: 2020-12-30T00:00:00.000Z
-        number: 14.02
+        number: 14.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbNAS4Ury_ZKjQezCEzWENgBfqo0uofQ-3fzENI671dMWg

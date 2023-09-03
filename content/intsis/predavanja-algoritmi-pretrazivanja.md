@@ -14,7 +14,7 @@ years:
               2020-10-06 - Uvod u veštačku inteligenciju.mp4
       - title: Ekspertski sistemi, pretraživanje
         date: 2020-10-13T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EcY9V0-SvglNps8n2iJVePEBdipom1MJw39UvA2i9JBCzw
@@ -22,7 +22,7 @@ years:
               - 2020-10-13 - Ekspertski sistemi, pretraživanje.mp4
       - title: Stanja i operatori, graf, strategije pretraživanja, ulančavanje
         date: 2020-10-13T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYabPkz5LwBLmVzaigPxpesBdnq9K2K8JYI9hfBLQ8qpnw
@@ -31,7 +31,7 @@ years:
               ulančavanje.mp4
       - title: Heuristika, faktor grananja
         date: 2020-10-20T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERbbmT0-ArhEs9BS_uOArosB3Kt6ID5zeAWumJqV51Jlww
@@ -39,7 +39,7 @@ years:
               - 2020-10-20 - Heuristika, faktor grananja.mp4
       - title: BFS, DFS
         date: 2020-10-20T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYsN5kpLFsdPpmJj1pet-wUByTywh3Sd6aRbX_gYkljV9w
@@ -47,7 +47,7 @@ years:
               - 2020-10-20 - BFS, DFS.mp4
       - title: AO-star, sukcesivne aproksimacije, robot i tetka
         date: 2020-10-27T00:00:00.000Z
-        number: 4.01
+        number: 4.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQvYfkQDqSJDg3A4ZiKpBmEBJbJMFRZIya7nM0Z_wDH_cQ
@@ -66,7 +66,7 @@ years:
               2021-10-05 - Uvod u veštačku inteligenciju.mp4
       - title: Ekspertski sistemi, pretraživanje
         date: 2021-10-12T00:00:00.000Z
-        number: 2.01
+        number: 2.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWMVRsAf7mRHoBF2pjc3Eq4BWqXVsu8W3DC_Q0PB6DAdeA
@@ -74,7 +74,7 @@ years:
               - 2021-10-12 - Ekspertski sistemi, pretraživanje.mp4
       - title: Stanja i operatori, graf, strategije pretraživanja
         date: 2021-10-12T00:00:00.000Z
-        number: 2.02
+        number: 2.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EapA97bhND5OvWbw4SREgiUBhlgRcMvjSsnGN6yYzQ8-mQ
@@ -83,7 +83,7 @@ years:
               pretraživanja.mp4
       - title: BFS, DFS, hill-climbing, generate and test, OR graf, A-star
         date: 2021-10-19T00:00:00.000Z
-        number: 3.01
+        number: 3.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EeXm_sZBS0xOpyNQTn8ruPQBJNNmSd3n4VRMDAPX_QGMTg
@@ -92,7 +92,7 @@ years:
               graf, A-star.mp4
       - title: A-star, AO-star, sukcesivne aproksimacije, robot i tetka
         date: 2021-10-19T00:00:00.000Z
-        number: 3.02
+        number: 3.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWY3e-M0Xv9LnM6ZSzA0iRwBW6dp4KSOsk3r3xzB-o2gxQ

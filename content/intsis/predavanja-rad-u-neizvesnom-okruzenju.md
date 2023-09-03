@@ -6,7 +6,7 @@ years:
     videos:
       - title: Neizvesno okruženje, TMS, rezonovanje na osnovu faktora izvesnosti
         date: 2020-12-15T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EeBsT9xJ2PlNvixc2me1sRMB5FtZ0KsQu9I1TUpWafGhug
@@ -15,7 +15,7 @@ years:
               rezonovanje na osnovu faktora izvesnosti.mp4
       - title: Rezonovanje na osnovu faktora izvesnosti, Bajesovo rezonovanje
         date: 2020-12-15T00:00:00.000Z
-        number: 9.01
+        number: 9.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Efgr8BHGxZRFvSwTzhZtf3YBfKzXbOIBG1cXE-f3bBYTBA
@@ -24,7 +24,7 @@ years:
               izvesnosti, Bajesovo rezonovanje.mp4
       - title: Bajesove mreže
         date: 2020-12-22T00:00:00.000Z
-        number: 9.02
+        number: 9.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EfceEDpzUCtDvLbAwAp94NQBh6pNJbXFsfI_XJYFIMjTIA

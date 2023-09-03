@@ -6,7 +6,7 @@ years:
     videos:
       - title: REST uvod, Hello World [greška u persistence.xml]
         date: 2020-12-22T00:00:00.000Z
-        number: 11.01
+        number: 11.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EX-yvWMAjGZPpUypZ67hOrABvhuG5fHRkbEifHS9sXt2iA
@@ -14,7 +14,7 @@ years:
               World [greška u persistence.xml].mp4
       - title: Postman, kompanija za prevoz
         date: 2020-12-22T00:00:00.000Z
-        number: 11.02
+        number: 11.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ec2gecANlllGrdhmYD4gJwEB9YMiWNoEmiiFnrwfnVIRYQ

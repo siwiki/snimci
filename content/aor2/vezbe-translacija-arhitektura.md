@@ -6,7 +6,7 @@ years:
     videos:
       - title: Translacija arhitektura, zadatak 1
         date: 2022-05-13T00:00:00.000Z
-        number: 5.01
+        number: 5.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbFCKYS0qHNGgpgiC-_buR8Bw1922QvHZ0adK_9GGzTPVQ
@@ -14,7 +14,7 @@ years:
               2022-05-13 - Translacija arhitektura, zadatak 1.mp4
       - title: Translacija arhitektura, nastavak zadatka 1
         date: 2022-05-13T00:00:00.000Z
-        number: 5.02
+        number: 5.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXLbXO_1WGRJh0o0-CK07J4B8ude0TDawcCuv1Rn8yL4pA
@@ -22,7 +22,7 @@ years:
               2022-05-13 - Translacija arhitektura, nastavak zadatka 1.mp4
       - title: Translacija arhitektura, nastavak zadatka 1
         date: 2020-05-20T00:00:00.000Z
-        number: 6.01
+        number: 6.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EVrhbJrktvBLv3jIGUgnKswBFD86x2P3lua6ylWHp5I86Q
@@ -30,7 +30,7 @@ years:
               2020-05-20 - Translacija arhitektura, nastavak zadatka 1.mp4
       - title: Translacija arhitektura, kraj zadatka 1, zadatak 2
         date: 2020-05-20T00:00:00.000Z
-        number: 6.02
+        number: 6.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXaaxNsl46RKsHR3M_5m6L4BvBjDATieyR5Covcz1ru-sw

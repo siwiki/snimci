@@ -6,7 +6,7 @@ years:
     videos:
       - title: Arhitektura računara, izrazi, nizovi, grananja, petlje, pokazivači
         date: 2020-05-04T00:00:00.000Z
-        number: 8.01
+        number: 8.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZwZABBRFJtOj_7WfVbD8osBSWQEAoBOLL8AtYiOAiipcw
@@ -15,7 +15,7 @@ years:
               petlje, pokazivači.mp4
       - title: Konvencije pozivanja
         date: 2020-05-04T00:00:00.000Z
-        number: 8.02
+        number: 8.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZgCiipksaxKiIUu1DzDXTkBBiEgXJEWbUVYAwyD7E-x5Q
@@ -23,7 +23,7 @@ years:
               2020-05-04 - Konvencije pozivanja.mp4
       - title: Primeri konvencija pozivanja, MOVC, MOVTC, CMPC, LOCC
         date: 2020-05-06T00:00:00.000Z
-        number: 9.01
+        number: 9.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQsIAJxvbbdLp3A6zmp3i4QB7F2pUpQhbhUVLVsqJAQ4Mw
@@ -32,7 +32,7 @@ years:
               LOCC.mp4
       - title: SKIPC, MATCHC, instrukcije kontrole petlji
         date: 2020-05-06T00:00:00.000Z
-        number: 9.02
+        number: 9.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERuxDKWdB5JHgF2v5Os1tCkB0k7jRWxcEY1R9B39BuCOeA
@@ -42,7 +42,7 @@ years:
     videos:
       - title: Arhitektura računara, izrazi, nizovi, grananja, petlje, pokazivači
         date: 2021-05-24T00:00:00.000Z
-        number: 12.01
+        number: 12.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXL3593qpOxGoyMcz1DY8sgB0pZAFSfR7bDNNEJKF0DGoA
@@ -51,7 +51,7 @@ years:
               petlje, pokazivači.mp4
       - title: Konvencije pozivanja
         date: 2021-05-24T00:00:00.000Z
-        number: 12.02
+        number: 12.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Eb8O4eBnOjNOgEszPiPErioBdqXjx3ol3SOxR6qJcfFtVA
@@ -59,7 +59,7 @@ years:
               2021-05-24 - Konvencije pozivanja.mp4
       - title: MOVC, MOVTC, CMPC, LOCC, SKIPC, MATCHC
         date: 2021-05-31T00:00:00.000Z
-        number: 13.01
+        number: 13.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EUvIgJoB8RFOthXwN4fE59IBX2xdlRLljHY5aIuCXAutNA
@@ -67,7 +67,7 @@ years:
               2021-05-31 - MOVC, MOVTC, CMPC, LOCC, SKIPC, MATCHC.mp4
       - title: Instrukcije kontrole petlji
         date: 2021-05-31T00:00:00.000Z
-        number: 13.02
+        number: 13.2
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EUbpvxr-x5VCmaEMDZSkx2wBoqe17MQSjTBRks0NhruDUQ

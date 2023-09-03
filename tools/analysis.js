@@ -128,7 +128,7 @@ function analyzeFile(file) {
             file
         };
     }
-    const number = Number(parts[0]);
+    const number = Number(parts[0].split('.').map(part => Number(part)).join('.'));
     if (isNaN(number)) {
         console.error('Expected number as the first part of', file);
         return null;

@@ -6,7 +6,7 @@ years:
     videos:
       - title: Redundansa
         date: 2020-12-18T00:00:00.000Z
-        number: 10.01
+        number: 10.1
         links:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ETJKzzPL6FtMiKJmcfp618gBzZ8WFkK8nOFzB04Ppgripw
