@@ -1,0 +1,22 @@
+[
+    {
+        "subject": "IS1",
+        "category": "Predavanja",
+        "year": 2021
+    },
+    {
+        "subject": "INTSIS",
+        "category": "Predavanja",
+        "year": 2021
+    },
+    {
+        "subject": "INTSIS",
+        "category": "Vežbe",
+        "numberOffset": -1
+    },
+    {
+        "subject": "AOR1",
+        "category": "Predavanja",
+        "year": 2021
+    }
+]

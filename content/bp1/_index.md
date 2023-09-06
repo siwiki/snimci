@@ -91,6 +91,9 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZN3YLdv3QZEpCNqhT4OkiIB53ilSePouVgPfGTOQkDe6Q
             path: Snimci predavanja/BP1/Predavanja/01.01 - 2020-10-12 - Sistemi baza
               podataka.mp4
+          - source: etfsiyt
+            location: ERuLRiHcGzg
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Model EO do kardinalnosti mapiranja
         date: 2020-10-12T00:00:00.000Z
         number: 1.2
@@ -100,6 +103,10 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EUGA-JIC_uFBnuCymw_-z7UBNWORKUxnxIQFbjMCNECbJQ
             path: Snimci predavanja/BP1/Predavanja/01.02 - 2020-10-12 - Model EO do
               kardinalnosti mapiranja.mp4
+          - source: etfsiyt
+            location: ERuLRiHcGzg
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
+            t: 2305
       - title: Model EO, relacioni model uvod
         date: 2020-10-19T00:00:00.000Z
         number: 2
@@ -109,6 +116,9 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EUn9nCxp76hFrG0hCrIsBycB7gR7s8xKZUKUkX66cozB2Q
             path: Snimci predavanja/BP1/Predavanja/02 - 2020-10-19 - Model EO, relacioni
               model uvod.mp4
+          - source: etfsiyt
+            location: pMw_r45h6ds
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Relacioni model (1)
         date: 2020-10-27T00:00:00.000Z
         number: 3
@@ -117,6 +127,9 @@ categories:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ER9gLt1VyEZDkwUR46BYO-8B6g6nZIWzTdto0PEYlyjQXA
             path: Snimci predavanja/BP1/Predavanja/03 - 2020-10-27 - Relacioni model (1).mp4
+          - source: etfsiyt
+            location: oPNklJjV-J0
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Relacioni model (2)
         date: 2020-10-26T00:00:00.000Z
         number: 4
@@ -125,6 +138,9 @@ categories:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EaOnS2iDAGFNj4VMRk1tM40BKjJhdVkYDKXhPZIbRaPBmA
             path: Snimci predavanja/BP1/Predavanja/04 - 2020-10-26 - Relacioni model (2).mp4
+          - source: etfsiyt
+            location: VmPi1GB_bAI
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Relacioni model (3)
         date: 2020-11-09T00:00:00.000Z
         number: 5
@@ -133,6 +149,9 @@ categories:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZGMUJIzBcpLi---twu5viQBbFtXXFjs7UcKAYNvDV4J_Q
             path: Snimci predavanja/BP1/Predavanja/05 - 2020-11-09 - Relacioni model (3).mp4
+          - source: etfsiyt
+            location: 2f5LpijXQMc
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Dizajn relacione baze, normalizacija
         date: 2020-11-16T00:00:00.000Z
         number: 6
@@ -142,6 +161,9 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERZX56CRcDVCkYFgBKmTDI4Bb5jtyzllKXRgbpf6ROoaTw
             path: Snimci predavanja/BP1/Predavanja/06 - 2020-11-16 - Dizajn relacione baze,
               normalizacija.mp4
+          - source: etfsiyt
+            location: EEnBZI-gVuM
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Normalizacija, upravljanje transakcijama
         date: 2020-11-23T00:00:00.000Z
         number: 7
@@ -151,6 +173,9 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZF1AhHTaD1Om9EQVAYCqkABzFxoI357F6qlZs_rHAfk3w
             path: Snimci predavanja/BP1/Predavanja/07 - 2020-11-23 - Normalizacija,
               upravljanje transakcijama.mp4
+          - source: etfsiyt
+            location: UHXBIPmi4_A
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Upravljanje transakcijama
         date: 2020-11-30T00:00:00.000Z
         number: 8
@@ -160,6 +185,9 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ee_bl3ahi9ZIsMxDRIuFlv4B0sx3T1IiRLX9012NIegwyA
             path: Snimci predavanja/BP1/Predavanja/08 - 2020-11-30 - Upravljanje
               transakcijama.mp4
+          - source: etfsiyt
+            location: W7IdKd3QUrE
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Upravljanje transakcijama, oporavak od kvara
         date: 2020-12-08T00:00:00.000Z
         number: 9
@@ -169,6 +197,9 @@ categories:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EdHwZTD4Y85BhUAXqCYh92wBGrkhqC7cWmPVpdemni_WzA
             path: Snimci predavanja/BP1/Predavanja/09 - 2020-12-08 - Upravljanje
               transakcijama, oporavak od kvara.mp4
+          - source: etfsiyt
+            location: LGqFq4pVVbk
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
       - title: Oporavak od kvara
         date: 2020-12-15T00:00:00.000Z
         number: 10
@@ -177,6 +208,9 @@ categories:
           - source: savic
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Efew95vXuWJAmLsfYy1SQscBasiEwrIEp8vTpboZZNDrTw
             path: Snimci predavanja/BP1/Predavanja/10 - 2020-12-15 - Oporavak od kvara.mp4
+          - source: etfsiyt
+            location: tYKrRHVyKFk
+            playlist: PL6P6g1D87HsSd7MEMfxUN6ycK85D829vg
 ---
 
 

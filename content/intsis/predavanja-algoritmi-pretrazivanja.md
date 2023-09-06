@@ -64,6 +64,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ea8YI65kQ7xFuDNMgNrT0LMBxy97xG_2JYoODH7TMoHEYQ
             path: Snimci predavanja/INTSIS/Predavanja 2021/01. Algoritmi pretraživanja/01 -
               2021-10-05 - Uvod u veštačku inteligenciju.mp4
+          - source: etfsiyt
+            location: RV1dNwY_Nv0
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
       - title: Ekspertski sistemi, pretraživanje
         date: 2021-10-12T00:00:00.000Z
         number: 2.1
@@ -72,6 +75,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EWMVRsAf7mRHoBF2pjc3Eq4BWqXVsu8W3DC_Q0PB6DAdeA
             path: Snimci predavanja/INTSIS/Predavanja 2021/01. Algoritmi pretraživanja/02.01
               - 2021-10-12 - Ekspertski sistemi, pretraživanje.mp4
+          - source: etfsiyt
+            location: 6Sksp9ehR-Q
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
       - title: Stanja i operatori, graf, strategije pretraživanja
         date: 2021-10-12T00:00:00.000Z
         number: 2.2
@@ -81,6 +87,10 @@ years:
             path: Snimci predavanja/INTSIS/Predavanja 2021/01. Algoritmi pretraživanja/02.02
               - 2021-10-12 - Stanja i operatori, graf, strategije
               pretraživanja.mp4
+          - source: etfsiyt
+            location: 6Sksp9ehR-Q
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
+            t: 2416
       - title: BFS, DFS, hill-climbing, generate and test, OR graf, A-star
         date: 2021-10-19T00:00:00.000Z
         number: 3.1
@@ -90,6 +100,9 @@ years:
             path: Snimci predavanja/INTSIS/Predavanja 2021/01. Algoritmi pretraživanja/03.01
               - 2021-10-19 - BFS, DFS, hill-climbing, generate and test, OR
               graf, A-star.mp4
+          - source: etfsiyt
+            location: xHR1AlK5k88
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
       - title: A-star, AO-star, sukcesivne aproksimacije, robot i tetka
         date: 2021-10-19T00:00:00.000Z
         number: 3.2
@@ -99,6 +112,10 @@ years:
             path: Snimci predavanja/INTSIS/Predavanja 2021/01. Algoritmi pretraživanja/03.02
               - 2021-10-19 - A-star, AO-star, sukcesivne aproksimacije, robot i
               tetka.mp4
+          - source: etfsiyt
+            location: xHR1AlK5k88
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
+            t: 2310
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/EtObPR2fsNBElCK1gci2B20BQiAzowFvqthN7_inOJpNQA

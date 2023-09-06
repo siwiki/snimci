@@ -50,6 +50,9 @@ years:
             path: Snimci predavanja/AOR1/Predavanja 2021/03. Povezivanje memorija/08.01 -
               2021-11-23 - Povezivanje memorija, realna keš memorija,
               ulazno-izlazni uređaji.mp4
+          - source: etfsiyt
+            location: LJj41KmSTpE
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Širina memorijske reči, preklapanje pristupa memoriji, i7 memorijski
           sistem
         date: 2021-11-23T00:00:00.000Z
@@ -60,6 +63,10 @@ years:
             path: Snimci predavanja/AOR1/Predavanja 2021/03. Povezivanje memorija/08.02 -
               2021-11-23 - Širina memorijske reči, preklapanje pristupa
               memoriji, i7 memorijski sistem.mp4
+          - source: etfsiyt
+            location: LJj41KmSTpE
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 3016
       - title: i7 memorijski sistem, performanse keš memorije
         date: 2021-11-30T00:00:00.000Z
         number: 9.1
@@ -68,6 +75,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ed1k8kTYoC1EnA4wTVuCkKUBOo0821Fosln9roQDdqZW1g
             path: Snimci predavanja/AOR1/Predavanja 2021/03. Povezivanje memorija/09.01 -
               2021-11-30 - i7 memorijski sistem, performanse keš memorije.mp4
+          - source: etfsiyt
+            location: -IJVO7sC7ec
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/En7rAXwLiTpOqQvIhaqI3h0Bac0RHfqc4-tYFrbYMua3cQ

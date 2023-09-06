@@ -57,6 +57,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYf88XJuDetFjkxSbLgoposB4hhYb-cbv-6fjC-XhFMnlQ
             path: Snimci predavanja/AOR1/Predavanja 2021/02. Virtuelna memorija/05.01 -
               2021-10-26 - Uvod u virtuelnu memoriju, stranična organizacija.mp4
+          - source: etfsiyt
+            location: s2hqzUBo5e4
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Stranična organizacija
         date: 2021-10-26T00:00:00.000Z
         number: 5.2
@@ -65,6 +68,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EaNwa_nJ4j9HrjaH2UEK7fsBHE80rL5rALbx8q7X8e79ig
             path: Snimci predavanja/AOR1/Predavanja 2021/02. Virtuelna memorija/05.02 -
               2021-10-26 - Stranična organizacija.mp4
+          - source: etfsiyt
+            location: s2hqzUBo5e4
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2692
       - title: Stranična organizacija nastavak, TLB jedinica
         date: 2021-11-09T00:00:00.000Z
         number: 6.1
@@ -73,6 +80,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EaF8DDf4UG1MoIKVVW6HiPMBqqVHWamk1drloPuI3JVXHg
             path: Snimci predavanja/AOR1/Predavanja 2021/02. Virtuelna memorija/06.01 -
               2021-11-09 - Stranična organizacija nastavak, TLB jedinica.mp4
+          - source: etfsiyt
+            location: KIRkioPiTKo
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Segmentna organizacija
         date: 2021-11-09T00:00:00.000Z
         number: 6.2
@@ -81,6 +91,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXLsN74HSD5Do2dWQzldaVYBoAb5h_mEqRRLLudmWgpQCA
             path: Snimci predavanja/AOR1/Predavanja 2021/02. Virtuelna memorija/06.02 -
               2021-11-09 - Segmentna organizacija.mp4
+          - source: etfsiyt
+            location: KIRkioPiTKo
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2382
       - title: Segmentno-stranična organizacija
         date: 2021-11-16T00:00:00.000Z
         number: 7.1
@@ -89,6 +103,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EXU4DfGTGy9Nu4-wHheZ3TQB-eNXVmfgs1F5ZJQQCDmQQQ
             path: Snimci predavanja/AOR1/Predavanja 2021/02. Virtuelna memorija/07.01 -
               2021-11-16 - Segmentno-stranična organizacija.mp4
+          - source: etfsiyt
+            location: qZgGUwLsC_I
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Segmentno-stranična organizacija sa TLB jedinicom, organizacija sa više
           nivoa, uvod u povezivanje memorija
         date: 2021-11-16T00:00:00.000Z
@@ -99,6 +116,10 @@ years:
             path: Snimci predavanja/AOR1/Predavanja 2021/02. Virtuelna memorija/07.02 -
               2021-11-16 - Segmentno-stranična organizacija sa TLB jedinicom,
               organizacija sa više nivoa, uvod u povezivanje memorija.mp4
+          - source: etfsiyt
+            location: qZgGUwLsC_I
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2843
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/EsX-mWJ96vRNvhB8kTispacBHax44-wtVOKjvJFkLFpQtw

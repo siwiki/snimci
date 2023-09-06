@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 import {analyze} from './analysis.js';
+import {analyzeYoutube} from './analyze-youtube.js';
 import {ROOT_DIR, readJSON} from './util.js';
 import {parse, stringify} from './yaml.js';
 import {stat} from 'fs/promises';
 
 const SOURCE_ID = 'savic';
+const YOUTUBE_SOURCE_ID = 'etfsiyt';
+const ASSOCIATE_YOUTUBE = true;
 
 const SLUGIFICATION = {
     'č': 'c',
@@ -141,6 +144,22 @@ function updateVideoLinks(yamlVideos, analysisVideos, links, dir) {
                 path: videoPath
             });
         }
+        if (!associatedVideo.youtube) {
+            continue;
+        }
+        const existentYouTubeLink = yamlVideo.links.find(link => link.source === YOUTUBE_SOURCE_ID);
+        if (existentYouTubeLink) {
+            existentYouTubeLink.location = associatedVideo.youtube;
+            existentYouTubeLink.playlist = associatedVideo.youtubePlaylist;
+            existentYouTubeLink.t = associatedVideo.youtubeT;
+        } else {
+            yamlVideo.links.push({
+                source: YOUTUBE_SOURCE_ID,
+                location: associatedVideo.youtube,
+                playlist: associatedVideo.youtubePlaylist,
+                t: associatedVideo.youtubeT
+            });
+        }
     }
 }
 
@@ -193,31 +212,6 @@ async function updateCategories(header, links, subject, subcategories) {
         });
     }
     updateVideoLinks(existentVideos, allVideos, links, subjectDir);
-    for (const video of existentVideos) {
-        const associatedVideo = allVideos
-            .find(video2 => areVideosEqual(video2, video));
-        if (!associatedVideo) {
-            console.error('Could not associate any video with', video, allVideos);
-            continue;
-        }
-        const videoPath = `${ROOT_DIR}/${subject}/${associatedVideo.file}`;
-        const link = findLinkByDir(links, videoPath);
-        if (!link) {
-            console.error('Video', videoPath, 'does not have an existent link');
-            continue;
-        }
-        const existentLink = video.links.find(link => link.source === SOURCE_ID);
-        if (existentLink) {
-            existentLink.path = videoPath;
-            existentLink.location = findLinkByDir(links, videoPath).webUrl;
-        } else {
-            video.links.push({
-                source: SOURCE_ID,
-                location: findLinkByDir(links, videoPath),
-                path: videoPath
-            });
-        }
-    }
 }
 
 function updateYear(header, year, dir, videos, links) {
@@ -285,6 +279,9 @@ async function updateSubject({name, hasMaterials, subcategories}, links) {
 async function main() {
     const items = await readJSON('items.json');
     const links = await readJSON('links.json');
+    const youtube = ASSOCIATE_YOUTUBE ?
+        await readJSON('youtube.json') :
+        null;
     const organizationViewLinks = links.filter(
         link => link.scope === 'organization' &&
                 link.type === 'view'
@@ -293,7 +290,9 @@ async function main() {
     if (numEditOrAnonymousLinks > 0) {
         console.warn('WARNING: There are', numEditOrAnonymousLinks, 'edit or anonymous links');
     }
-    const analysis = analyze(items);
+    const analysis = ASSOCIATE_YOUTUBE ?
+        analyzeYoutube(items, youtube) :
+        analyze(items);
     for (const subjectAnalysis of analysis) {
         await updateSubject(subjectAnalysis, links);
     }

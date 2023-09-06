@@ -12,6 +12,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EaIdkiq0tkZEsA2XSMYulIoBEEr6K9JYFhaWqgs1mUDffg
             path: Snimci predavanja/INTSIS/Vežbe/01. Algoritmi pretraživanja/01 - 2021-10-07
               - Prostor i algoritmi pretraživanja.mp4
+          - source: etfsiyt
+            location: XNcipqX8UIA
+            playlist: PL6P6g1D87HsTwWbxNIOUCSFau07yLhZMN
       - title: Razni problemi u algoritmima pretraživanja
         date: 2020-10-22T00:00:00.000Z
         number: 2
@@ -20,6 +23,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZZul11Wc9NLhSykXa_1Bl8BFIjTDPJGesrLwAZ8a9O0Ig
             path: Snimci predavanja/INTSIS/Vežbe/01. Algoritmi pretraživanja/02 - 2020-10-22
               - Razni problemi u algoritmima pretraživanja.mp4
+          - source: etfsiyt
+            location: XfH1CVm4gb4
+            playlist: PL6P6g1D87HsTwWbxNIOUCSFau07yLhZMN
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/Erluk0DKauJDt6Pn6v1ZLSYBJQ_UxyQu6uZEE8W-zBhuYg

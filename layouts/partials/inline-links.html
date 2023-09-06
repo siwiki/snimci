@@ -2,7 +2,14 @@
 {{ range .links }}
     {{ $source := index $context.Site.Data.sources .source }}
     {{ $context.Scratch.Add "icons" (slice (print $source.type "-small")) }}
-    <a class="button button-inline" href="{{ .location }}" title="{{ $source.name }}">
+    {{ $href := .location }}
+    {{ if eq $source.type "youtube" }}
+        {{ $href = print "https://www.youtube.com/watch?v=" $href }}
+        {{ if .t }}
+            {{ $href = print $href "&t=" .t }}
+        {{ end }}
+    {{ end }}
+    <a class="button button-inline" href="{{ $href }}" title="{{ $source.name }}">
         <svg class="w-4 h-4 mr-0.5 inline align-middle">
             <use href="#{{ $source.type }}-small"></use>
         </svg>

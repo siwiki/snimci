@@ -73,6 +73,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYz1yU9mSVBGjqNgGKsG22ABaKwGNvLdQTa4huFDlLi5eg
             path: Snimci predavanja/AOR1/Predavanja 2021/04. Protočna obrada/09.02 -
               2021-11-30 - Uvod u protočnu obradu.mp4
+          - source: etfsiyt
+            location: -IJVO7sC7ec
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Protočna obrada, strukturalni hazardi
         date: 2021-12-17T00:00:00.000Z
         number: 10.1
@@ -81,6 +84,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZ4uT28Kc3FArZiN4RIsfIUB59CYye2IRyvgrFqqhSaEhg
             path: Snimci predavanja/AOR1/Predavanja 2021/04. Protočna obrada/10.01 -
               2021-12-17 - Protočna obrada, strukturalni hazardi.mp4
+          - source: etfsiyt
+            location: Q-iRAbGfsMY
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Hazardi podataka, prosleđivanje
         date: 2021-12-17T00:00:00.000Z
         number: 10.2
@@ -89,6 +95,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQd1xRWbg3tJvlDjhbThFo0BCMfojG_Pbl0SNw1kQALexA
             path: Snimci predavanja/AOR1/Predavanja 2021/04. Protočna obrada/10.02 -
               2021-12-17 - Hazardi podataka, prosleđivanje.mp4
+          - source: etfsiyt
+            location: Q-iRAbGfsMY
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2707
       - title: Hazardi podataka
         date: 2021-12-24T00:00:00.000Z
         number: 11.1
@@ -97,6 +107,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EdrVgu1K1TlPrdG4kxGwNRkBF99FF6m41oh5YcHZseAQjA
             path: Snimci predavanja/AOR1/Predavanja 2021/04. Protočna obrada/11.01 -
               2021-12-24 - Hazardi podataka.mp4
+          - source: etfsiyt
+            location: iDeUgHX7DI4
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Zakašnjeno punjenje, istovremeno čitanje i upis, upravljački hazardi,
           predviđanje skokova
         date: 2021-12-24T00:00:00.000Z
@@ -107,6 +120,10 @@ years:
             path: Snimci predavanja/AOR1/Predavanja 2021/04. Protočna obrada/11.02 -
               2021-12-24 - Zakašnjeno punjenje, istovremeno čitanje i upis,
               upravljački hazardi, predviđanje skokova.mp4
+          - source: etfsiyt
+            location: iDeUgHX7DI4
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2741
       - title: Predviđanje skokova, dodatni hazardi podataka, zakašnjen skok, dinamičko
           predviđanje skokova
         date: 2021-12-29T00:00:00.000Z
@@ -117,6 +134,9 @@ years:
             path: Snimci predavanja/AOR1/Predavanja 2021/04. Protočna obrada/12.01 -
               2021-12-29 - Predviđanje skokova, dodatni hazardi podataka,
               zakašnjen skok, dinamičko predviđanje skokova.mp4
+          - source: etfsiyt
+            location: 9btYNrbeNGw
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Šeme za predviđanje, prekidi, hyper-threading, superscalar
         date: 2021-12-29T00:00:00.000Z
         number: 12.2
@@ -126,6 +146,10 @@ years:
             path: Snimci predavanja/AOR1/Predavanja 2021/04. Protočna obrada/12.02 -
               2021-12-29 - Šeme za predviđanje, prekidi, hyper-threading,
               superscalar.mp4
+          - source: etfsiyt
+            location: 9btYNrbeNGw
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2729
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/EswzbK1-kU1NuwfUnhJACNABnCHvLrY0eE4eirm4rD7rzA

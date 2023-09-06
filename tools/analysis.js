@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import {ROOT_DIR, isVideoFile} from './util.js';
+import {ROOT_DIR, isVideoFile, itemPath} from './util.js';
 import {env} from 'process';
 
 const ALLOWED_CATEGORIES = new Set([
@@ -99,16 +99,24 @@ function isDate(str) {
  * - YYYY-MM-DD - Description
  * - NUM - Description
  * - NUM.NUM - Description
+ * @param {import('@microsoft/microsoft-graph-types').DriveItem[]} items Items
+ * in the OneDrive drive
  * @param {string} file File name
+ * @param {string} dir File's directory
  * @returns {null|{description: string, number?: number, date?: Date}} Analysis results
  */
-function analyzeFile(file) {
+function analyzeFile(items, file, dir) {
     const parts = file.replace(/\.[a-z0-9]{3,4}$/u, '').split(' - ');
     if (parts.length < 2 || parts.length > 3) {
         console.error('File', file, 'appears to have an unformatted name');
         return null;
     }
     const description = parts[parts.length - 1];
+    const path = `${ROOT_DIR}/${dir}/${file}`;
+    const durationMillis = items.find(item => itemPath(item) === path)?.video?.duration;
+    const duration = durationMillis ?
+        Math.round(durationMillis / 1000) :
+        undefined;
     if (description.trim() === '') {
         console.error('File', file, 'is missing a description');
         return null;
@@ -125,7 +133,9 @@ function analyzeFile(file) {
         return {
             date: new Date(parts[0]),
             description,
-            file
+            duration,
+            file,
+            path
         };
     }
     const number = Number(parts[0].split('.').map(part => Number(part)).join('.'));
@@ -141,24 +151,28 @@ function analyzeFile(file) {
         return {
             date: new Date(parts[1]),
             description,
+            duration,
             file,
-            number
+            number,
+            path
         };
     }
     return {
         description,
+        duration,
         file,
-        number
+        number,
+        path
     };
 }
 
-function analyzeFiles(files) {
+function analyzeFiles(items, files, dir) {
     const nonVideos = files.filter(file => !isVideoFile(file.name));
     if (nonVideos.length) {
         console.error('Found non-video files!', nonVideos.map(file => file.name));
         return null;
     }
-    return files.map(file => analyzeFile(file.name)).filter(Boolean);
+    return files.map(file => analyzeFile(items, file.name, dir)).filter(Boolean);
 }
 
 function analyzeSubcategory(items, subject, category, subcategory) {
@@ -176,7 +190,7 @@ function analyzeSubcategory(items, subject, category, subcategory) {
         return null;
     }
     return {
-        files: analyzeFiles(files),
+        files: analyzeFiles(items, files, `${subject}/${category}/${subcategory}`),
         folder: subcategory,
         name: parts[1],
         number
@@ -190,7 +204,7 @@ function analyzeCategoryFiles(items, subject, category) {
     if (directories.length === 0) {
         // This hasn't been split into directories.
         return {
-            files: analyzeFiles(files)
+            files: analyzeFiles(items, files, `${subject}/${category}`)
         };
     }
     if (files.length > 0) {
@@ -233,6 +247,7 @@ function analyzeCategory(items, subject, category) {
     };
 }
 
+// TODO: count in teachers, teaching groups and departments
 function analyzeSubcategories(subject, categories) {
     const categoryMap = {};
     for (const {name, files, folder, year, subcategories} of categories) {

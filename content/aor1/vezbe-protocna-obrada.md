@@ -11,6 +11,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EbQoojv-fStAnAomyaWQplkBQUSgMTsox7laT_4KKqu9Cg
             path: Snimci predavanja/AOR1/Vežbe/04. Protočna obrada/09 - Protočna obrada,
               zadaci 1, 4, 6, 2v, 5.mp4
+          - source: etfsiyt
+            location: MM7ZmMInBVs
+            playlist: PL6P6g1D87HsSNMw7wZPZfyAeITZZKnCcW
       - title: Protočna obrada, zadaci 8 (upravljački hazardi), 9, 12 (modifikovan), 13
         number: 10
         links:
@@ -18,6 +21,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EZlphZpdOYVGk-hIE7BfL64Bg9PXZXnKo2Uydz_uJyIHDg
             path: Snimci predavanja/AOR1/Vežbe/04. Protočna obrada/10 - Protočna obrada,
               zadaci 8 (upravljački hazardi), 9, 12 (modifikovan), 13.mp4
+          - source: etfsiyt
+            location: YlBXZ6t1cn8
+            playlist: PL6P6g1D87HsSNMw7wZPZfyAeITZZKnCcW
       - title: Protočna obrada, zadaci 15 (dinamička predikcija), 16 i 18b
         number: 11
         links:
@@ -32,6 +38,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYbEFBUfT4tFiCGnJn1Rv5ABcDGxIRgBX6J4077I9HkKnA
             path: Snimci predavanja/AOR1/Vežbe/04. Protočna obrada/12 - K3 2020, K3 2019,
               Easter egg.mp4
+          - source: etfsiyt
+            location: jdso271EidI
+            playlist: PL6P6g1D87HsSNMw7wZPZfyAeITZZKnCcW
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/EhS8Gs0hIrpJnTj4aGZ7bwwBPHwZKcBt4ogqyKiyRuZFDw

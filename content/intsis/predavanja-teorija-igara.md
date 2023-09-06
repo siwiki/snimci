@@ -30,6 +30,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYMYrD9Q6QJMmALxs4QqftABFAwzfF_4So_WiQJXsswrww
             path: Snimci predavanja/INTSIS/Predavanja 2021/02. Teorija igara/04.01 -
               2021-10-26 - Igre i veštačka inteligencija.mp4
+          - source: etfsiyt
+            location: 5Vux40AhIqI
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
       - title: MINIMAX, alfa-beta odsecanje
         date: 2021-10-26T00:00:00.000Z
         number: 4.2
@@ -38,6 +41,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EazRgT6oqPlIriyzhonajqIBBnVfozK6cS0cuuQOkahjNA
             path: Snimci predavanja/INTSIS/Predavanja 2021/02. Teorija igara/04.02 -
               2021-10-26 - MINIMAX, alfa-beta odsecanje.mp4
+          - source: etfsiyt
+            location: 5Vux40AhIqI
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
+            t: 2328
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/EiesyrtLhRxAmqOZL4enNMsBnNIEtLmhI5BVwLCFNzN6yg

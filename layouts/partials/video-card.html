@@ -1,21 +1,53 @@
-<article class="card" href="{{ .subcat.name }}">
-    <h5>{{ with .video.number }}{{ . }}.{{ end }} {{ .video.title }}</h5>
-    <div class="grid-cols-2 text-sm">
-        {{ with .video.date }}
-        <div>
-            <strong>Datum:</strong>
-            <span>{{ dateFormat "January 2, 2006" . }}</span>
-        </div>
+<article class="card video-card">
+    <div class="mr-2">
+        {{ $youtubeVideos := slice }}
+        {{ $context := .context }}
+        {{ range .video.links }}
+            {{ $source := index $context.Site.Data.sources .source }}
+            {{ if eq $source.type "youtube" }}
+                {{ $youtubeVideos = $youtubeVideos | append . }}
+            {{ end }}
         {{ end }}
-        {{ with .video.teacher }}
-        <div>
-            <strong>Predavač:</strong>
-            <span>{{ . }}</span>
-        </div>        
+        {{ if eq (len $youtubeVideos) 0 }}
+            <img src="/images/onedrive.png" alt="OneDrive logo" width="120" height="90">
+        {{ else }}
+            {{ $video := index $youtubeVideos 0 }}
+            <img src="https://img.youtube.com/vi/{{ $video.location }}/default.jpg" alt="Ikonica za video {{ .video.title }}" width="120" height="90">
         {{ end }}
     </div>
-    <p class="text-sm">{{ .video.description }}</p>
-    <p class="mt-auto border-t border-dotted pt-1">
-        {{ partial "inline-links.html" (dict "context" .context "links" .video.links) }}
-    </p>
+    <div>
+        <h5>{{ with .video.number }}{{ . }}.{{ end }} {{ .video.title }}</h5>
+        {{ with .video.date }}
+        <time datetime="{{ . }}">{{ dateFormat "January 2, 2006" . }}</time>
+        {{ end }}
+        <p class="text-sm">{{ .video.description }}</p>
+    </div>
+    <div class="modal-content hidden">
+        <h3>Podaci</h3>
+        <ul class="list-disc ml-4">
+            {{ with .video.number }}
+            <li><strong>Broj:</strong> {{ . }}</li>
+            {{ end }}
+            {{ with .video.title }}
+            <li><strong>Naslov:</strong> {{ . }}</li>
+            {{ end }}
+            {{ with .video.date }}
+            <li><strong>Datum:</strong> <time datetime="{{ . }}">{{ dateFormat "January 2, 2006" . }}</time></li>
+            {{ end }}
+        </ul>
+        <h3>Gledaj</h3>
+        <p>
+            <strong>Svi izvori:</strong> {{ partial "inline-links.html" (dict "context" .context "links" .video.links) }}
+        </p>
+        <p class="flex justify-center">
+            {{ if ne (len $youtubeVideos) 0 }}
+                {{ $video := index $youtubeVideos 0 }}
+                {{ $href := print "https://www.youtube.com/watch?v=" $video.location }}
+                {{ if .t }}
+                    {{ $href = print $href "&t=" .t }}
+                {{ end }}
+                <a class="button youtube-button" href="{{ $href }}" target="_blank" data-id="{{ $video.location }}" data-start="{{ $video.t }}">Gledaj na YouTube</a>
+            {{ end }}
+        </p>
+    </div>
 </article>

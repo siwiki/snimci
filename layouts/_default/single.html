@@ -10,3 +10,8 @@
     {{ partial "contact.html" . }}
 
 {{ end }}
+
+{{ define "scripts" }}
+    {{ $js := resources.Get "js/video.js" | minify | fingerprint "sha512" }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}

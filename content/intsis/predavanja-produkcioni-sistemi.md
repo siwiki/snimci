@@ -31,6 +31,9 @@ years:
             path: Snimci predavanja/INTSIS/Predavanja 2021/03. Produkcioni sistemi/05.01 -
               2021-11-09 - Negamax, Negascout, produkcioni sistemi, sistem
               paker.mp4
+          - source: etfsiyt
+            location: qKvqdyxkn6Y
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
       - title: Sistem paker, robot i zoo
         date: 2021-11-09T00:00:00.000Z
         number: 5.2
@@ -39,6 +42,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/ERJkX9xX4_ZNhUO86RghNp8Bduj9W4IIfglygU2SjYFHDA
             path: Snimci predavanja/INTSIS/Predavanja 2021/03. Produkcioni sistemi/05.02 -
               2021-11-09 - Sistem paker, robot i zoo.mp4
+          - source: etfsiyt
+            location: qKvqdyxkn6Y
+            playlist: PL6P6g1D87HsSf8e4i50Jn95bUV07hwr54
+            t: 2270
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/EjNrsnCQsglDkyWVO_5ZkVwBW5J3Y4oM6ElJnk7-urWzBA

@@ -78,6 +78,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ea4-9T30xRNMgs_yoZipUJ0B4Tw76OV3jm9iQ4renlGCHw
             path: Snimci predavanja/AOR1/Predavanja 2021/01. Keš memorija/01.01 - 2021-10-06
               - Uvod u keš memoriju.mp4
+          - source: etfsiyt
+            location: hqZTEgUzfNc
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Asocijativno preslikavanje
         date: 2021-10-06T00:00:00.000Z
         number: 1.2
@@ -86,6 +89,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EQgJaF1x7mxMoKhjMmpQCOsB3oNtJvM5jl5LweK1O4Mu5Q
             path: Snimci predavanja/AOR1/Predavanja 2021/01. Keš memorija/01.02 - 2021-10-06
               - Asocijativno preslikavanje.mp4
+          - source: etfsiyt
+            location: hqZTEgUzfNc
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2392
       - title: Direktno preslikavanje
         date: 2021-10-07T00:00:00.000Z
         number: 2.1
@@ -94,6 +101,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EV3yW9SscB9FiDNnFYRbBCwBGQPquNo0hYa1zunNNfZGSQ
             path: Snimci predavanja/AOR1/Predavanja 2021/01. Keš memorija/02.01 - 2021-10-07
               - Direktno preslikavanje.mp4
+          - source: etfsiyt
+            location: LT1dw70yucU
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Set-asocijativno preslikavanje
         date: 2021-10-07T00:00:00.000Z
         number: 2.2
@@ -102,6 +112,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EckhkvPcIKxAqaRiMqf0M1AB2wvqMMCzBwoGMSQbUtqQpg
             path: Snimci predavanja/AOR1/Predavanja 2021/01. Keš memorija/02.02 - 2021-10-07
               - Set-asocijativno preslikavanje.mp4
+          - source: etfsiyt
+            location: LT1dw70yucU
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2987
       - title: Random, FIFO i LRU zamena blokova
         date: 2021-10-12T00:00:00.000Z
         number: 3
@@ -110,6 +124,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYiqD3zDJKRCnmpNDScLTVUBEo2HZbPgclNEis2R52e7lA
             path: Snimci predavanja/AOR1/Predavanja 2021/01. Keš memorija/03 - 2021-10-12 -
               Random, FIFO i LRU zamena blokova.mp4
+          - source: etfsiyt
+            location: -SXV8UEPqMQ
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: LRU i pseudo-LRU zamena blokova
         date: 2021-10-20T00:00:00.000Z
         number: 4.1
@@ -118,6 +135,9 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/Ed525nyb7KFMugEaIc43PtQBkNN2PCAkobjwJ_frm6gOzw
             path: Snimci predavanja/AOR1/Predavanja 2021/01. Keš memorija/04.01 - 2021-10-20
               - LRU i pseudo-LRU zamena blokova.mp4
+          - source: etfsiyt
+            location: gfa-owXJZsU
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
       - title: Pseudo-LRU zamena blokova, ažuriranje operativne memorije
         date: 2021-10-20T00:00:00.000Z
         number: 4.2
@@ -126,6 +146,10 @@ years:
             location: https://studentetfbgacrs-my.sharepoint.com/:v:/g/personal/sa190595d_student_etf_bg_ac_rs/EYrm63T8YrNJk1ULk9eYhukBWt0iOfcYysyeGK2xDztm8w
             path: Snimci predavanja/AOR1/Predavanja 2021/01. Keš memorija/04.02 - 2021-10-20
               - Pseudo-LRU zamena blokova, ažuriranje operativne memorije.mp4
+          - source: etfsiyt
+            location: gfa-owXJZsU
+            playlist: PL6P6g1D87HsSSHSa1a8dGjB7yGKZW3Pvn
+            t: 2500
 sources:
   - source: savic
     location: https://studentetfbgacrs-my.sharepoint.com/:f:/g/personal/sa190595d_student_etf_bg_ac_rs/EjiWo3uUcP5AjqiRbimD0fYBYkrjhv3ROp1JQzZWc8y2eQ

@@ -1,0 +1,17 @@
+<div class="relative z-10 dark:text-white hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="modal">
+    <div class="fixed inset-0 bg-black bg-opacity-50 transition-opacity" id="modal-blackout"></div>
+    <div class="fixed inset-0 flex min-h-full justify-center p-4 text-center items-center">
+        <div class="container mx-auto relative transform rounded-lg bg-white dark:bg-gray-600 text-left shadow-xl transition-all sm:my-8" id="modal-inside">
+            <div class="bg-gray-300 dark:bg-gray-700 px-4 py-3 grid grid-cols-[1fr_10fr_1fr] justify-center sm:px-6 rounded-t-lg">
+                <h2 class="text-base text-center font-semibold leading-6 overflow-x-hidden whitespace-nowrap text-ellipsis col-start-2 m-0" id="modal-title"></h2>
+                <button title="{{ i18n "close" }}" aria-label="{{ i18n "close" }}" aria-controls="modal" class="ml-auto text-4xl leading-4 text-gray-800 rounded-lg dark:text-white hover:bg-gray-100 focus:outline-none dark:hover:bg-gray-700 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600" id="modal-close">&times;</button>
+            </div>
+            <div class="px-8 py-4 text-left text-sm overflow-y-auto max-h-[calc(100vh-120px)]" id="modal-content">
+            </div>
+            <div class="bg-gray-300 dark:bg-gray-700 px-4 py-3 flex justify-between sm:px-6 rounded-b-lg">
+                <button class="button" id="previous-video">{{ i18n "previous-video" }}</button>
+                <button class="button" id="next-video">{{ i18n "next-video" }}</button>
+            </div>
+        </div>
+    </div>
+</div>
