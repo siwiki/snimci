@@ -1,5 +1,5 @@
 <article class="card video-card">
-    <div class="mr-2">
+    <div class="mr-2 basis-[120px]">
         {{ $youtubeVideos := slice }}
         {{ $context := .context }}
         {{ range .video.links }}
@@ -15,7 +15,7 @@
             <img src="https://img.youtube.com/vi/{{ $video.location }}/default.jpg" alt="Ikonica za video {{ .video.title }}" width="120" height="90">
         {{ end }}
     </div>
-    <div>
+    <div class="flex-1">
         <h5>{{ with .video.number }}{{ . }}.{{ end }} {{ .video.title }}</h5>
         {{ with .video.date }}
         <time datetime="{{ . }}">{{ dateFormat "January 2, 2006" . }}</time>

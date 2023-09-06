@@ -1,5 +1,7 @@
 {{ $page := .context.Site.GetPage (print "/" .context.Page.Section "/" .subcat.name) }}
 <a class="card" href="{{ .subcat.name }}">
-    <h5>{{ with .subcat.number }}{{ . }}.{{ end }} {{ $page.Title }}</h5>
-    <p>Smisliću šta ovde treba da piše</p>
+    <div>
+        <h5>{{ with .subcat.number }}{{ . }}.{{ end }} {{ $page.Title }}</h5>
+        <p>{{ $page.Summary }}</p>
+    </div>
 </a>

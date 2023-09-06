@@ -28,8 +28,10 @@ a {
            dark:text-white
            rounded-lg
            hover:bg-gray-100
-           focus:outline-none
            dark:hover:bg-gray-700
+           disabled:bg-gray-100
+           dark:disabled:bg-gray-700
+           focus:outline-none
            focus:ring-2
            focus:ring-gray-200
            dark:focus:ring-gray-600
@@ -93,7 +95,7 @@ h5 {
 .card, a.card {
     @apply w-full
            box-border
-           h-28
+           min-h-[7rem]
            border
            p-3
            mb-2

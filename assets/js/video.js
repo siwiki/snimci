@@ -63,7 +63,7 @@
 
     function onChangeVideo(offset) {
         var offsetCardId = cardId + offset;
-        if (offsetCardId === 0 || offsetCardId === videoCards.length - 1) {
+        if (offsetCardId === -1 || offsetCardId === videoCards.length) {
             return;
         }
         openCard(videoCards[offsetCardId]);
